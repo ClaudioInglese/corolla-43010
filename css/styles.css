@@ -717,7 +717,13 @@ main .elegir-h2{
 }
 
 
-
+main .fotos-modelos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
 
 
 
@@ -1010,7 +1016,7 @@ main .main-reserva{
     width: 400px;
     line-height: 25px;
     margin-bottom: 5px;
-    margin-left: 600px;
+    margin-left: 700px;
 }
 
 
