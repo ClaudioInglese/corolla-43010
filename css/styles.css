@@ -28,47 +28,46 @@
 
 /*------------HEADER------------*/
 
-.header{
+.grid-container .header{
     width: 100%;    
     background-color: black;         
     display: flex;
     justify-content:space-around;    
     grid-area: header;
     flex-direction: row;
-  
-    
+    padding: 27px;   
+        
 }
 
+/*--HEADER LISTA--*/ 
 
-/*---HEADER LISTA---*/ 
-
-.header ul{
+.grid-container .header ul{
     display: flex;   
-    list-style: none;        
+    list-style: none;           
     align-items: center;     
 }
 
 
-.header ul li a{
+.grid-container .header ul li a{
     text-decoration: none;  
     font-family: 'Montserrat', sans-serif;
     color: #ffc845; 
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px;                
 }   
     
 
 /*---HEADER LOGO---*/ 
 
-.header .logo{
+.grid-container .header .logo{
     display: flex;
     justify-content: center;      
     align-items: center;
 }
 
-.header .logo img{    
+.grid-container .header .logo img{    
     width: 160px;
-    height: 45px;             
+    height: 40px;             
 }
 
 
@@ -76,7 +75,7 @@
 /*---HEADER ENLACE Y MENU ---*/ 
 
 /*--ENLACE--*/
-.enlace-toyota{   
+.grid-container .header .enlace-toyota{   
     display: flex;           
     color: #212529;   
     margin-left: 15px;
@@ -84,16 +83,16 @@
 }
 
 
-.enlace-toyota button{
+.grid-container .header .enlace-toyota button{
     background-color: yellow;
-    width: 16rem;
-    height: 3rem;    
+    width: 14rem;
+    height: 2.5rem;    
     text-align: left;  
        
 }
 
 
-.enlace-toyota a{
+.grid-container .header .enlace-toyota a{
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: bold;
@@ -103,17 +102,16 @@
 
 
 /*--MENU--*/
-.dropdown-menu{
+.grid-container .header .dropdown-menu{
     display: flex;    
     justify-content: center;
     align-items: center;
     position: relative;
     background: none;
-
 }
 
 
-.dropdown-menu .menu-button{
+.grid-container .header .dropdown-menu .menu-button{
     width: 30px;
     height: 25px;    
     
@@ -122,7 +120,7 @@
     
 /*-----------MAIN-----------*/ 
 
-.main{
+.grid-container .main{
     width: 100%;
     background-color: black;  
     display: flex;    
@@ -135,7 +133,7 @@
 
 /*--SECCION VIDEO --*/ 
 
-.main .video div{    
+.grid-container .main .video div{    
     display: flex;
     justify-content: center;
     align-items: center;        
@@ -147,13 +145,13 @@
 
 /*--SECCION HERO --*/ 
 
-.main .hero{
+.grid-container .main .hero{
     display: flex;    
     flex-direction: column;              
         
 }
 
-.main .hero h6{
+.grid-container .main .hero h6{
     
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -163,7 +161,7 @@
     margin-left: 150px;             
 }
 
-.main .hero h2{
+.grid-container .main .hero h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 54px;
     font-weight: 400;
@@ -177,7 +175,7 @@
     padding-top: 30px; 
 }
 
-.main .hero img{
+.grid-container .main .hero img{
     width: 85%;
     height: auto;    
     padding-top: 40px;   
@@ -189,14 +187,14 @@
 
 /*--SECCION ORIGEN --*/ 
 
-.origen{
+.grid-container .main .origen{
     background-color: rgb(6, 6, 12);
     display: flex;
     flex-direction: column;  
      
 }
 
-.origen h6{
+.grid-container .main .origen h6{
     font-family: 'Montserrat', sans-serif; 
     font-size: 12px;   
     letter-spacing: 1px;
@@ -206,7 +204,7 @@
     margin-bottom: 24px;
 }
 
-.origen h2{
+.grid-container .main .origen h2{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
@@ -215,7 +213,7 @@
     padding-bottom: 50px;
 }
 
-.origen img{
+.grid-container .main .origen img{
     width: 85%;
     align-self: center; 
     height: auto;
@@ -225,12 +223,12 @@
 
 /*--SECCION INSPIRACION --*/ 
 
-.inspiracion{
+.grid-container .main .inspiracion{
     font-family: 'Montserrat', sans-serif;    
 }
 
 
-.inspiracion h6{
+.grid-container .main .inspiracion h6{
     font-size: 12px; 
     letter-spacing: 1px;
     text-align: center;
@@ -242,7 +240,7 @@
 
 
 
-.inspiracion h2{
+.grid-container .main .inspiracion h2{
     
     text-align: center;
     color: white;
@@ -251,7 +249,7 @@
     
 }
 
-.inspiracion p{
+.grid-container .main .inspiracion p{
     
     text-align: center;    
     color: white;
@@ -265,7 +263,7 @@
 
             
 
-.inspiracion .parallax{
+.grid-container .main .inspiracion .parallax{
     width: 100%;
     height: 100vh;
     opacity: 67%;
@@ -280,7 +278,7 @@
   /*--SECCION EXTERIOR--*/ 
 
 
-.exterior{
+  .grid-container .main .exterior{
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -289,7 +287,7 @@
     padding-top: 70px;       
 }
 
-.exterior h6{
+.grid-container .main .exterior h6{
     font-size: 14px; 
     letter-spacing: 1px;
     text-align: center;
@@ -298,7 +296,7 @@
 }
 
 
-.exterior h2{
+.grid-container .main .exterior h2{
     text-align: left;
     margin-left: 40px;
     color: white;
@@ -307,7 +305,7 @@
     padding-top: 30px;      
 }
 
-.exterior .grid-exterior{
+.grid-container .main .exterior .grid-exterior{
     width: 100%;   
     height: 100vh;         
     display: grid; 
@@ -317,7 +315,7 @@
    "faro faro"
 }
 
-.exterior .grid-exterior .llanta{
+.grid-container .main .exterior .grid-exterior .llanta{
     grid-area: llanta;
     width: 65%;
     height: auto;   
@@ -328,7 +326,7 @@
     margin-right: 30px;
 }
 
-.exterior .grid-exterior .llanta p{
+.grid-container .main .exterior .grid-exterior .llanta p{
     color: white;    
     padding-right: 40px;
 
@@ -336,7 +334,7 @@
 } 
     
 
-.exterior .grid-exterior .faro{
+.grid-container .main .exterior .grid-exterior .faro{
     grid-area: faro;
     width: 65%;
     height: auto;   
@@ -350,7 +348,7 @@
          
 }
 
-.exterior .grid-exterior .faro p{
+.grid-container .main .exterior .grid-exterior .faro p{
     width: 100%;    
     color: white;  
     display: flex;
@@ -364,7 +362,7 @@
 
   /*--SECCION INTERIOR--*/ 
 
-.interior div h6{
+  .grid-container .main .interior div h6{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px; 
     letter-spacing: 1px;
@@ -376,7 +374,7 @@
 }
 
 
-.grid-galeria{
+.grid-container .main .grid-galeria{
     width: 100%;
     background-color: white;
     display: grid;
@@ -387,7 +385,7 @@
 }
 
 
-.interior .grid-galeria .grid-item img{
+.grid-container .main .interior .grid-galeria .grid-item img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -398,7 +396,7 @@
 
 /*--SECCION TU COROLLA--*/ 
 
-.tu-corolla{
+.grid-container .main .tu-corolla{
     background-color: black;
     width: 100%;
     margin-top: 120px;
@@ -406,7 +404,7 @@
        
 }
     
-.tu-corolla h2{
+.grid-container .main .tu-corolla h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px; 
     letter-spacing: 1px;
@@ -417,14 +415,14 @@
         
 }
 
-.tu-corolla img{
+.grid-container .main .tu-corolla img{
     width: 100%;           
     
 }
     
 
    
-.grid-tucorolla{
+.grid-container .main .grid-tucorolla{
     width: 100%;
     background-color: black;
     display: grid;
@@ -435,14 +433,14 @@
 }
 
 
-.tu-corolla .grid-tucorolla .grid-modelo img{
+.grid-container .main .tu-corolla .grid-tucorolla .grid-modelo img{
     width: 100%;
     height: 100%;
     object-fit: cover;    
 }
     
 
-.tu-corolla .grid-tucorolla .grid-conoce{
+.grid-container .main .tu-corolla .grid-tucorolla .grid-conoce{
     font-family: 'Montserrat', sans-serif;    
     display: flex;
     flex-direction: column;
@@ -453,7 +451,7 @@
 
 
 
-.tu-corolla .grid-tucorolla .grid-conoce h2{       
+.grid-container .main .tu-corolla .grid-tucorolla .grid-conoce h2{       
     letter-spacing: 1px;
     text-align: center;
     color: white;
@@ -461,7 +459,7 @@
 }
 
 
-.tu-corolla .grid-tucorolla .grid-conoce .enlace-conoce button{
+.grid-container .main .tu-corolla .grid-tucorolla .grid-conoce .enlace-conoce button{
     
     background-color: yellow;
     font-weight: bold;
@@ -471,7 +469,7 @@
     text-align: center;            
 }
 
-.tu-corolla .grid-tucorolla .grid-conoce .enlace-conoce button a{
+.grid-container .main .tu-corolla .grid-tucorolla .grid-conoce .enlace-conoce button a{
     text-decoration: none;
 }
 
@@ -481,10 +479,7 @@
 
 /*-----FOOTER -----*/ 
 
-
-
-
-footer{
+.grid-container footer{
     width: 100%;
     grid-column-start: 1;    
     grid-column-end: 4;  
@@ -492,7 +487,7 @@ footer{
 }
 
 
-footer div{
+.grid-container footer div{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -500,7 +495,7 @@ footer div{
     flex-direction: column;
 }
 
-.footer{
+.grid-container footer .footer{
     background-color: black;
     width: 100%;
     height: auto;
@@ -510,7 +505,7 @@ footer div{
 }
 
 
-.footer .logo-toyota-footer h6{
+.grid-container footer .footer .logo-toyota-footer h6{
     font-family: 'Montserrat', sans-serif;
     color: white;        
     font-size: 15px;
@@ -519,14 +514,14 @@ footer div{
 }
 
 
-.footer .logo-toyota-footer img{
+.grid-container footer .footer .logo-toyota-footer img{
     width: 70px;
     height: 60px;      
     
 }
 
 
-.footer .footer-menu{            
+.grid-container footer .footer .footer-menu{            
     width: 100%;    
     list-style: none;   
     margin-left: 70px;      
@@ -534,7 +529,7 @@ footer div{
 
 
 
-.footer .footer-menu a{
+.grid-container footer .footer .footer-menu a{
     font-family: 'Montserrat', sans-serif;    
     text-decoration: none; 
     color: #ffc845;    
@@ -542,7 +537,7 @@ footer div{
 }
 
 
-.footer .redes{
+.grid-container footer .footer .redes{
     display: flex;
     justify-content: center;
     margin-right: 90px;
@@ -551,19 +546,19 @@ footer div{
 
 
 
-.footer .redes ul{
+.grid-container footer .footer .redes ul{
     display: flex;    
     flex-direction: row;      
     list-style: none;                     
 }
 
 
-.footer .redes ul li a{   
+.grid-container footer .footer .redes ul li a{   
     padding: 10px;
 }
 
 
-.footer .redes h6{
+.grid-container footer .footer .redes h6{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -573,7 +568,7 @@ footer div{
 }
 
 
-.footer .footer-form{
+.grid-container footer .footer .footer-form{
     width: 100%;
     display: flex;
     margin-right: 50px;
@@ -581,7 +576,7 @@ footer div{
     
 }
 
-.footer .footer-form h6{
+.grid-container footer .footer .footer-form h6{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
@@ -593,7 +588,7 @@ footer div{
 
 
 
-.footer .footer-form form div{
+.grid-container footer .footer .footer-form form div{
     width: 100%;
     display: flex;
     flex-direction: row;   
@@ -601,7 +596,7 @@ footer div{
 
 }
 
-.footer .footer-form form div label{
+.grid-container footer .footer .footer-form form div label{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: white;   
@@ -610,7 +605,7 @@ footer div{
 }
 
 
-.footer .footer-form form div input{    
+.grid-container footer .footer .footer-form form div input{    
     margin-left: 5px;
     font-family: 'Montserrat', sans-serif;
     color: black;       
@@ -618,7 +613,7 @@ footer div{
 }
 
 
-.footer .footer-form form div button{
+.grid-container footer .footer .footer-form form div button{
     
     margin-top: 10px;      
     margin-bottom: 10px;    
@@ -628,34 +623,29 @@ footer div{
 
 
 
+                       /*-----PAGINA MODELOS -----*/
 
-
-
-
-
-/*-----PAGINA MODELOS -----*/ 
-
-.header-modelos{
+/*-----HEADER-----*/ 
+.header{
     width: 100%;    
     background-color: black;         
     display: flex;
     justify-content:space-around;    
     grid-area: header;
     flex-direction: row;
-    padding: 27px;   
-        
+    padding: 27px;           
 }
 
-/*--HEADER LISTA--*/ 
 
-.header-modelos ul{
+.header ul{
     display: flex;   
-    list-style: none;        
+    list-style: none;           
     align-items: center;     
 }
 
 
-.header-modelos ul li a{
+
+.header ul li a{    
     text-decoration: none;  
     font-family: 'Montserrat', sans-serif;
     color: #ffc845; 
@@ -664,25 +654,19 @@ footer div{
 }   
     
 
-/*---HEADER LOGO---*/ 
-
-.header-modelos .logo{
+.header .logo{
     display: flex;
     justify-content: center;      
     align-items: center;
 }
 
-.header-modelos .logo img{    
-    width: 150px;
+.header .logo img{    
+    width: 160px;
     height: 40px;             
 }
 
 
-
-/*---HEADER ENLACE Y MENU ---*/ 
-
-/*--ENLACE--*/
-.enlace-toyota-modelos{   
+.header .enlace-toyota{   
     display: flex;           
     color: #212529;   
     margin-left: 15px;
@@ -690,16 +674,15 @@ footer div{
 }
 
 
-.enlace-toyota-modelos button{
+.header .enlace-toyota button{
     background-color: yellow;
     width: 14rem;
     height: 2.5rem;    
-    text-align: left;  
-       
+    text-align: left;             
 }
 
 
-.enlace-toyota-modelos a{
+.header .enlace-toyota a{
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: bold;
@@ -707,8 +690,26 @@ footer div{
     margin-left: 25px;    
 }
 
+.header .dropdown-menu{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: none;
+    padding-top: 20px;  
 
-/*---HEADER ENLACE Y MENU ---*/ 
+}
+
+
+.header .dropdown-menu .menu-button{
+    width: 30px;
+    height: 25px;           
+}
+
+
+
+
+/*-----MAIN-----*/ 
 main .elegir-h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -722,124 +723,24 @@ main .fotos-modelos{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
-}
-
-
-
-
-
-/*-----PAGINA ESPCIFICACIONES -----*/ 
-
-.header-specs{
-    width: 100%;    
-    background-color: black;         
-    display: flex;
-    justify-content:space-around;    
-    grid-area: header;
-    flex-direction: row;
-    padding: 27px;   
-        
-}
-
-/*--HEADER LISTA--*/ 
-
-.header-specs ul{
-    display: flex;   
-    list-style: none;        
-    align-items: center;     
-}
-
-
-.header-specs ul li a{
-    text-decoration: none;  
-    font-family: 'Montserrat', sans-serif;
-    color: #ffc845; 
-    font-size: 13px;
-    margin: 10px;                
-}   
     
 
-/*---HEADER LOGO---*/ 
+    
+}
 
-.header-specs .logo{
+main .fotos-modelos a img{    
     display: flex;
-    justify-content: center;      
+    justify-content: center;
     align-items: center;
-}
+    flex-direction: column; 
 
-.header-specs .logo img{    
-    width: 150px;
-    height: 40px;             
-}
-
-
-
-/*---HEADER ENLACE Y MENU ---*/ 
-
-/*--ENLACE--*/
-.enlace-toyota-specs{   
-    display: flex;           
-    color: #212529;   
-    margin-left: 15px;
-    align-items: center;           
-}
-
-
-.enlace-toyota-specs button{
-    background-color: yellow;
-    width: 14rem;
-    height: 2.5rem;    
-    text-align: left;  
-       
-}
-
-
-.enlace-toyota-specs a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    text-decoration: none; 
-    margin-left: 25px;    
-}
-
-
-/*----- MAIN -----*/ 
-
-main p{
-    margin-top: 60px;
-    margin-bottom: 0;
-}
-
-main div .specs-hybrid{
-    width: 100%;
-    height: auto;
-
-}
-
-#carouselExample{
-  width: 40%;
-  height: auto;
-  margin: 0 auto;  
-
-  
-}
-
-.carousel-control-prev-icon{
-    filter: invert(100%);    
-    margin-right: 50px;
     
-}
 
-.carousel-control-next-icon{
-    filter: invert(100%);    
-    margin-left: 50px;
-    
 }
 
 
 
-
+/*-----FOOTER -----*/ 
 
 footer{
     width: 100%;
@@ -857,7 +758,206 @@ footer div{
     flex-direction: column;
 }
 
-.footer{
+footer .footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;    
+    padding-top: 50px;                       
+}
+
+
+footer .footer .logo-toyota-footer h6{
+    font-family: 'Montserrat', sans-serif;
+    color: white;        
+    font-size: 15px;
+    padding-left: 5px;
+    
+}
+
+
+footer .footer .logo-toyota-footer img{
+    width: 70px;
+    height: 60px;      
+    
+}
+
+
+footer .footer .footer-menu{            
+    width: 100%;    
+    list-style: none;   
+    margin-left: 70px;      
+}
+
+
+
+footer .footer .footer-menu a{
+    font-family: 'Montserrat', sans-serif;    
+    text-decoration: none; 
+    color: #ffc845;    
+    font-size: 14px;     
+}
+
+
+footer .footer .redes{
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    
+}
+
+
+
+footer .footer .redes ul{
+    display: flex;    
+    flex-direction: row;      
+    list-style: none;                     
+}
+
+
+footer .footer .redes ul li a{   
+    padding: 10px;
+}
+
+
+footer .footer .redes h6{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+footer .footer .footer-form{
+    width: 100%;
+    display: flex;
+    margin-right: 50px;
+    
+    
+}
+
+footer .footer .footer-form h6{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+
+footer .footer .footer-form form div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;   
+    
+
+}
+
+footer .footer .footer-form form div label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;   
+    text-align: center;    
+
+}
+
+
+footer .footer .footer-form form div input{    
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;       
+    
+}
+
+
+footer .footer .footer-form form div button{
+    
+    margin-top: 10px;      
+    margin-bottom: 10px;    
+    margin-left: 120px;
+    
+}
+
+
+
+
+
+
+
+
+                /*--------PAGINA ESPCIFICACIONES --------*/ 
+
+/*----- HEADER -----*/ 
+
+.header ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header .dropdown-menu {    
+    height: 25px;  
+    min-width: 0;  
+    
+}
+
+/*----- MAIN -----*/ 
+
+main .fs-2{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+main div .specs-hybrid{
+    width: 100%;
+    height: auto;
+
+}
+
+#carouselExample{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;    
+}
+
+
+main .carousel-control-prev-icon{
+    filter: invert(100%);    
+    margin-right: 50px;    
+}
+
+main .carousel-control-next-icon{
+    filter: invert(100%);    
+    margin-left: 50px;    
+}
+
+
+
+/*----- FOOTER -----*/ 
+
+footer{
+    width: 100%;
+    grid-column-start: 1;    
+    grid-column-end: 4;  
+    grid-area: "footer";                       
+}
+
+
+footer div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .footer{
     background-color: black;
     width: 100%;
     height: auto;
@@ -870,7 +970,7 @@ footer div{
 
 
 
-.footer .logo-toyota-footer h6{
+footer .footer .logo-toyota-footer h6{
     font-family: 'Montserrat', sans-serif;
     color: white;        
     font-size: 15px;
@@ -879,14 +979,14 @@ footer div{
 }
 
 
-.footer .logo-toyota-footer img{
+footer .footer .logo-toyota-footer img{
     width: 70px;
     height: 60px;      
     
 }
 
 
-.footer .footer-menu{            
+footer .footer .footer-menu{            
     width: 100%;    
     list-style: none;   
     margin-left: 70px;  
@@ -895,7 +995,7 @@ footer div{
 
 
 
-.footer .footer-menu a{
+footer .footer .footer-menu a{
     font-family: 'Montserrat', sans-serif;    
     text-decoration: none; 
     color: #ffc845;    
@@ -904,9 +1004,7 @@ footer div{
 }
 
 
-
-
-.footer .redes{
+footer .footer .redes{
     display: flex;
     justify-content: center;
     margin-right: 90px;
@@ -915,19 +1013,20 @@ footer div{
 
 
 
-.footer .redes ul{
+footer .footer .redes ul{
     display: flex;    
     flex-direction: row;      
-    list-style: none;                     
+    list-style: none;  
+    padding-left: 0px;                   
 }
 
 
-.footer .redes ul li a{   
+footer .footer .redes ul li a{   
     padding: 10px;
 }
 
 
-.footer .redes h6{
+footer .footer .redes h6{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -937,15 +1036,14 @@ footer div{
 }
 
 
-.footer .footer-form{
+footer .footer .footer-form{
     width: 100%;
     display: flex;
-    margin-right: 50px;
-    
-    
+    margin-right: 50px;        
 }
 
-.footer .footer-form h6{
+
+footer .footer .footer-form h6{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
@@ -957,7 +1055,7 @@ footer div{
 
 
 
-.footer .footer-form form div{
+footer .footer .footer-form form div{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -966,18 +1064,16 @@ footer div{
 
 }
 
-.footer .footer-form form div label{
+footer .footer .footer-form form div label{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: white;   
-    text-align: center; 
-
-    
+    text-align: center;    
 
 }
 
 
-.footer .footer-form form div input{    
+footer .footer .footer-form form div input{    
     margin-left: 5px;
     font-family: 'Montserrat', sans-serif;
     color: black;       
@@ -985,9 +1081,7 @@ footer div{
 }
 
 
-
-
-.footer .footer-form form div button{
+footer .footer .footer-form form div button{
     
     margin-top: 10px;      
     margin-bottom: 10px;    
@@ -996,13 +1090,8 @@ footer div{
 }
 
 
-/*-----PAGINA RESERVA -----*/ 
+          /*-----------------PAGINA RESERVA-------------------*/ 
 
-
-
-main .main-reserva a img{
-    width: 100%;
-}
 
 main .main-reserva{
     display: flex;
@@ -1010,35 +1099,50 @@ main .main-reserva{
     align-items: center;
 }
 
-.form-reserva{
+
+main .main-reserva a img{
+    width: 100%;
+}
+
+
+main .form-reserva{   
     text-align: center;      
     border-style: solid;    
     width: 400px;
     line-height: 25px;
-    margin-bottom: 5px;
-    margin-left: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 
-.form-reserva label{    
+main .form-reserva .modelos-corolla{
+    display: block;
+    
+}
+
+main .form-reserva .modelos-corolla h3{
+    font-family: 'Montserrat', sans-serif;
+    color: black;   
+    margin-bottom: 10px;
+}
+
+
+main .form-reserva div label{    
     
     font-family: 'Montserrat', sans-serif;
     color: black;
     line-height: 15px;
 }
 
-.form-reserva input{    
+main .form-reserva div input{    
     font-family: 'Montserrat', sans-serif;
-    color: black;       
+    color: black;     
+    width: 200px;  
 }
 
-
-.form-reserva input{
-    width: 200px;
-}
-
-
-.form-reserva button{
+main .form-reserva div button{
     padding: 10px 20px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1053,90 +1157,11 @@ main .main-reserva{
     margin-left: 20px;
 }
 
-.form-reserva h3{
-    font-family: 'Montserrat', sans-serif;
-    color: black;   
-    margin-bottom: 10px;
-}
 
 
 
-/*-----PAGINA CONTACTO -----*/ 
 
-
-.header-contacto{
-    width: 100%;    
-    background-color: black;         
-    display: flex;
-    justify-content:space-around;    
-    grid-area: header;
-    flex-direction: row;
-    padding: 27px;   
-        
-}
-
-/*--HEADER LISTA--*/ 
-
-.header-contacto ul{
-    display: flex;   
-    list-style: none;        
-    align-items: center;     
-}
-
-
-.header-contacto ul li a{
-    text-decoration: none;  
-    font-family: 'Montserrat', sans-serif;
-    color: #ffc845; 
-    font-size: 13px;
-    margin: 10px;                
-}   
-    
-
-/*---HEADER LOGO---*/ 
-
-.header-contacto .logo{
-    display: flex;
-    justify-content: center;      
-    align-items: center;
-}
-
-.header-contacto .logo img{    
-    width: 150px;
-    height: 40px;             
-}
-
-
-
-/*---HEADER ENLACE Y MENU ---*/ 
-
-/*--ENLACE--*/
-.enlace-toyota-contacto{   
-    display: flex;           
-    color: #212529;   
-    margin-left: 15px;
-    align-items: center;           
-}
-
-
-.enlace-toyota-contacto button{
-    background-color: yellow;
-    width: 14rem;
-    height: 2.5rem;    
-    text-align: left;  
-       
-}
-
-
-.enlace-toyota-contacto a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    text-decoration: none; 
-    margin-left: 25px;    
-}
-
-
+                        /*-----PAGINA CONTACTO -----*/ 
 
 /*--MAIN--*/
 .main-contacto{
@@ -1148,39 +1173,41 @@ main .main-reserva{
     background-size: cover;   
     background-repeat: no-repeat;     
     background-position: center; 
-    background-attachment: fixed ;
-  
-   
+    background-attachment: fixed;
+    
     
 }
-.form-contacto{
+
+.main-contacto .form-contacto{
     
     width: 100%;
     height: 600px;
     text-align: center;
-    padding-top: 100px;
-
-
+    margin-top: 100px;   
 }
 
-.form-contacto label{    
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-.form-contacto input{    
-    font-family: 'Montserrat', sans-serif;
-    color: white;       
-}
-
-
-
-form h3{
+.main-contacto .form-contacto div label{    
     font-family: 'Montserrat', sans-serif;
     color: white;   
+    
 }
 
-form button{
+.main-contacto .form-contacto div input{    
+    font-family: 'Montserrat', sans-serif;
+    color: black;       
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+
+
+.main-contacto form div h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;   
+    margin-top: 25px;
+}
+
+.main-contacto form div button{
     padding: 7px 15px;
     background-color: #3c33b8;
     color: white;
@@ -1195,85 +1222,51 @@ form button{
 
 /*-----------------------------MEDIA QUERIES-----------------------------*/
 
-    /*---------INDEX------------*/
+                        /*---------INDEX------------*/
 
 /* --MEDIA 1850px--*/
 @media screen and (max-width: 1850px){
     
-    .interior div h6{
+    .grid-container .main .interior div h6{
         margin-top: 50px;
     }
 }
 
 /* --MEDIA 1715px--*/
 @media screen and (max-width: 1715px){
-    .footer .redes h6{
-        text-align: center;   
+  
+    .grid-container .main .interior div h6{
+        margin-top: 30px;
     }
 
-    .interior div h6{
-        margin-top: 30px;
+    .grid-container .footer .redes h6{
+        text-align: center;   
     }
 }
 
 
 /* --MEDIA 1570px--*/
 @media screen and (max-width: 1570px){
-    .grid-galeria{
+    .grid-container .main .interior .grid-galeria{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 400px;       
     }    
 
-    .img-9{
+    .grid-container .main .interior .grid-galeria .img-9{
         grid-column: span 2;               
     }
 }
 
-/* --MEDIA 1420px--*/
-@media screen and (max-width: 1420px){
-
-    
-    .footer .redes h6{
-        display: flex;  
-        
-    }   
-
-}
-
 
 /* --MEDIA 1380px--*/
+
 @media screen and (max-width: 1380px){
-    .hero h2{
+    .grid-container .main .hero h2{
         margin-right: 60px;
     }
 }
 
-
-/* --MEDIA 1300px--*/
-@media screen and (max-width: 1300px){
-
-    .hero h2{
-        margin-right: 150px;
-    }
-
-    .exterior .grid-exterior .faro{
-        margin-top: 0;
-    }
-
-    .exterior .grid-exterior .faro p{
-        margin-top: 85px;
-    }
-
-    .interior div h6{
-        padding-top: 25px;
-    }
-    
-    .grid-tucorolla{
-        grid-auto-rows: 300px;        
-    }    
-   
-}
 
 
 /* --MEDIA 1175px--*/
@@ -1302,40 +1295,40 @@ form button{
         
     }
 
-
-    .header .dropdown-menu{
-        display: flex;
-        justify-content: left;
-        padding-left: 15px;
-    }
-
-
-    .enlace-toyota{
+    .grid-container .header .enlace-toyota{
         display: none;
     }  
+
+    .grid-container .header .dropdown-menu{
+        display: flex;
+        justify-content: left;        
+        padding: 0px 0px 5px 15px;
+    }
+
+   
    
 
-    .enlace-conoce button{
+    .grid-container .main .tu-corolla .grid-conoce .enlace-conoce button{
         font-family: 'Montserrat', sans-serif;
-        font-weight: bold;        
+                
         margin-bottom: 70px;
         width: 12rem;
         height: 3rem;     
     }
 
-    .enlace-conoce button a{
-        font-size: 12px;
+    .grid-container .main .tu-corolla .grid-conoce .enlace-conoce .enlace-conoce button a{
+        font-size: 15px;
         font-weight: bold;        
         
     }
 
     
-    .exterior .grid-exterior .faro p{
+    .grid-container .main .exterior .grid-exterior .faro p{
         text-align: center;        
         margin-top: 55px;
     }
 
-    .interior div h6{
+    .grid-container .main .interior div h6{
         padding-top: 0;
         margin-top: auto;
     }
@@ -1344,12 +1337,12 @@ form button{
 
 /* --MEDIA 1050px--*/
 @media screen and (max-width: 1050px){
-    .main .hero h6{
+    .grid-container .main .hero h6{
         text-align:center;
         margin: 15px;
     }
 
-    .main .hero h2{
+    .grid-container .main .hero h2{
         text-align: center;
         margin: 30px;
         padding-top: 0;
@@ -1359,84 +1352,69 @@ form button{
 }
 
 /* --MEDIA 1005px--*/
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1005px){
 
 
-    .main .hero h2{
+    .grid-container .main .hero h2{
         font-size: 35px;
         line-height: 45px;
     }
 
-    .origen h2{
+    .grid-container .main .origen h2{
         font-size: 35px;
         line-height: 45px;
     }
 
-    .inspiracion h2{
+    .grid-container .main .inspiracion h2{
         font-size: 35px;
         line-height: 45px;
     }
 
-    .inspiracion p{
-        font-size: 25px;
+    .grid-container .main .inspiracion p{
+        font-size: 30px;
         line-height: 45px;
+        padding-top: 0 ;
     }
 
-    .exterior h2{
+    .grid-container .main .exterior h2{
         font-size: 30px;        
     }
         
-    .exterior .grid-exterior .faro p{
-        text-align: center;               
-        margin-top: 15px;
+    .grid-container .main .exterior .grid-exterior .faro p{
+        text-align: center;                       
+        font-size: 16px;    
+        text-align: center; 
+        margin-left: 10px;
+        padding-left: 20px;   
           
     }
+    
+    .grid-container footer .footer .logo-toyota-footer{
+        padding-left: 35px;
+    }
 
-    .footer .footer-menu li {
+    .grid-container footer .footer .footer-menu li {
         width: 100%;            
         margin-right: 130px;
     }    
 
-    .footer .redes ul {   
+    .grid-container footer .footer .redes ul {   
         padding-left: 0px;
-    }
+    }    
 }
 
-/* --MEDIA 1005px--*/
-@media screen and (max-width: 1005px){
-  
-
-    .exterior .grid-exterior .faro p{   
-        font-size: 16px;    
-        text-align: center; 
-        margin-left: 10px;
-        padding-left: 20px;                            
-    }
-
-    .interior div h6{
-        padding-top: 0;
-        margin-top: 0;
-    }
-
-    .footer .logo-toyota-footer{
-        padding-left: 35px;
-    }
-
-}
 
 /* --MEDIA 945px--*/
 @media screen and (max-width: 945px){
-    .footer .footer-form{
-        display: none;
-    }
     
-    .exterior .grid-exterior{   
+    
+    .grid-container .main .exterior {   
         display: grid;
         grid-template-columns: 1fr;
                      
     }
 
-    .exterior .grid-exterior .llanta {
+    .grid-container .main .exterior .grid-exterior .llanta {
         width: 100%;
         display: flex;     
         justify-content: center;   
@@ -1444,77 +1422,172 @@ form button{
         margin: 0;                                          
     }
 
-   .exterior .grid-exterior .llanta img{
-       width: 60%;               
+    .grid-container .main .exterior .grid-exterior .llanta p{
+        padding-right: 0;
+        padding-bottom: 20px;
     }
 
-    .exterior .grid-exterior .faro {
+    .grid-container .main .exterior .grid-exterior .llanta img{
+       width: 60%;           
+
+    }
+
+    .grid-container .main .exterior .grid-exterior .faro {
         width: 100%;
-        display: flex;     
-        justify-content: center;   
+        display: flex;              
         align-items: center;
         flex-direction: column;   
         margin: 0;                                          
     }
 
-    .exterior .grid-exterior .faro p{
-        width: 60%;
+    .grid-container .main .exterior .grid-exterior .faro p{
+        width: auto;
         text-align: center;  
-        margin: 0;     
+        margin-left: 0; 
+        margin-top: 0;    
         padding-top: 25px;
-        padding-bottom: 20px;       
-        
-     }
+        padding-bottom: 20px;  
+        padding-right: 20px;        
+    }
 
-    .exterior .grid-exterior .faro img{
+    .grid-container .main .exterior .grid-exterior .faro img{
         width: 60%;               
-     }
+    }
 
 
-     .interior{
-        margin-top: 25px;
-     }
+    .grid-container .main .interior{
+        margin-top: 100px;
+    }
+    
+    .grid-container footer .footer .footer-form{
+        display: none;
+    }
+
 }        
+
+
  
 /* --MEDIA 595px--*/
 @media screen and (max-width: 595px){
+   
 
-    .main .video div iframe{
-        width: 100%;
-        height: auto;
+    .grid-container .main .hero h6{
+        padding-top: 0;
     }
 
-    .exterior .grid-exterior .llanta p{
-        padding-right: 0px;
-    }
+    
+        
+        
 
-    .exterior .grid-exterior .faro{
-        display: flex;
-        justify-content: start;
-    }
-
-    .interior{
+    .grid-container .main .interior{
         margin-top: 10px;
     }
 
      
-    .interior .grid-galeria{           
+    .grid-container .main .interior .grid-galeria{           
         display: flex;     
         flex-direction: column;                                                                          
     }
 
-    .interior div h6{           
+    .grid-container .main .interior div h6{           
        margin-bottom: 45px;
 
     }
 
-    .tu-corolla .grid-tucorolla{
+    .grid-container .main .tu-corolla .grid-tucorolla{
         display: grid;
         grid-template-columns: 1fr;
 
     }
 
 
+    .grid-container footer .footer{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .grid-container footer .footer .logo-toyota-footer{
+       padding-left: 0;
+    }
+
+            
+    .grid-container footer .footer .footer-menu{        
+        display: flex;
+        flex-direction: row;   
+        justify-content: center;     
+        align-items: center;  
+        margin: 0;
+        padding-top: 40px;   
+        padding-left: 0px;                    
+    }
+
+    .grid-container footer .footer .footer-menu li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;          
+        text-align: center;   
+        
+    }    
+
+
+    .grid-container footer .footer .footer-menu .footer-inicio{
+        display: none;
+
+    }
+   
+
+    .grid-container footer .footer .redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        padding: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .grid-container footer .footer .redes h6{        
+        padding-bottom: 10px;
+        
+    }
+       
+}
+
+    /*-----------MEDIA MODELOS--------------*/
+    /* CONTINUAR CON MEDIA QUERIES DE LA PAGINA "MODELOS" PARA ESTABLECER
+    UN PATRON PARA LAS DEMAS PAGINAS Y FIJARSE QUE NO INTEFIERA CON EL INDEX */
+
+/* --MEDIA 1715px--*/
+@media screen and (max-width: 1715px){
+    
+    footer .footer .redes h6{
+        text-align: center;   
+    }
+
+}
+@media screen and (max-width: 1175px){
+    .header .dropdown-menu{
+        display: flex;
+        justify-content: left;        
+        padding: 0px 0px 0px 15px;
+    }
+}
+
+
+/* --MEDIA 945px--*/
+@media screen and (max-width: 945px){
+    
+    footer .footer .footer-form{
+       display: none;
+    }     
+}
+
+
+
+/* --MEDIA 595px--*/
+@media screen and (max-width: 595px){
+    
     footer .footer{
         display: flex;
         flex-direction: column;        
@@ -1525,8 +1598,7 @@ form button{
     }
 
             
-    footer .footer .footer-menu{
-        
+    footer .footer .footer-menu{        
         display: flex;
         flex-direction: row;   
         justify-content: center;     
@@ -1540,17 +1612,25 @@ form button{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0;          
+        margin: 0;                 
         text-align: center;   
         
     }    
 
+    footer .footer .footer-menu li a{
+       padding: 10px; 
+        
+    }   
 
     footer .footer .footer-menu .footer-inicio{
         display: none;
 
     }
    
+    footer .footer .redes h6{        
+        padding-bottom: 10px;
+        
+    }
 
     footer .footer .redes{
         display: flex;
@@ -1559,48 +1639,61 @@ form button{
         margin-right: 0;
         padding: 0;
         margin-top: 40px;
+        margin-bottom: 20px;
     }
     
-    footer .footer .redes h6{
-        padding-bottom: 0;
+    
+
+}
+
+
+
+
+            /*-----------ESPECIFICACIONES TECNICAS--------------*/
+/* --MEDIA 1175px--*/
+  
+@media screen and (max-width: 1175px){
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
     }
+
+
+    .header ul{
+       display: none;
+    }
+
+  
        
+    .header .logo a img{           
+        width: 170px;
+        height: 65px;         
+    }
+
+    .header .enlace-toyota{
+      display: none;
+    }  
+
+    .header .dropdown-menu{
+        display: flex;
+        justify-content: left;
+        padding: 0px 0px 0px 15px;
+    }
 }
 
 
-/* --MEDIA 450px--*/
-@media screen and (max-width: 450px){
-    
+
+
 /*
-    .grid-container .header .dropdown-menu{
-        display: none;
-    }
-*/
-    .main .hero h6{
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .main .hero h2{
-        text-align: center;
-        margin: 30px;
-
-    }
-
-}
-    
-
-
 /*-----------CONTACTO--------------*/
 
 /* --MEDIA 1800px--*/
+/*
 @media screen and (max-width: 1800px){
 
-    .header-contacto ul li a{
-        font-size: 14px;
-    }
-
-    .header-contacto .enlace-toyota-contacto a{
+    .header .enlace-toyota-contacto a{
         font-size: 10px;
     }
 
@@ -1611,21 +1704,23 @@ form button{
 
 
 
-/* --MEDIA 1100px--*/
-@media screen and (max-width: 1100px){
 
-    .header-contacto{
+/* --MEDIA 1175px--*/
+/*
+@media screen and (max-width: 1175px){
+
+    .header{
+        
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-
-    .header-contacto ul{
+    .header ul{
         display: none;
     }
 
-    .header-contacto .logo a img{
+    .header .logo a img{
         width: 170px;
         height: 65px;  
         display: flex;
@@ -1633,14 +1728,12 @@ form button{
         align-items: center;
     }
 
+}
 
-    .header-contacto .enlace-toyota-contacto{
-        display: none;
-    }
 
-    .header-contacto .dropdown-menu{
-        padding-left: 10px;
-    }
+/* --MEDIA 1100px--*/
+/*
+@media screen and (max-width: 1100px){
 
     main .form-contacto div h3{
         padding-top: 20px;
@@ -1660,60 +1753,7 @@ form button{
         display: flex;
         justify-content: center;
     }
-
-
 }
 
 
-
-
-
-/*-----------ESPECIFICACIONES TECNICAS--------------*/
-
-/* --MEDIA 1800px--*/
-@media screen and (max-width: 1800px){
-    .header-specs ul li a{
-        font-size: 14px;
-    }
-}
-
-/* --MEDIA 1100px--*/
-@media screen and (max-width: 1100px){
-
-    .header-specs{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-
-    .header-specs ul{
-        display: none;
-    }
-
-    .header-specs .logo a img{      
-        width: 170px;  
-        height: 65px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .header-specs .enlace-toyota-specs{
-        display: none;
-    }
-
-    .header-specs .dropdown-menu{
-        min-width: 0;
-        padding-left: 15px;
-    }
-
-   
-
-
-
-}
 
