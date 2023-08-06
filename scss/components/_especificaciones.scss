@@ -1,0 +1,60 @@
+main{
+    .fs-2{
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+    
+    .carousel{
+        width: 40%;
+        height: auto;
+        margin: 0 auto;  
+
+        .carousel-inner{
+            .carousel-item{
+                img{
+
+                }
+            }
+        }
+
+        .carousel-control-prev{
+            .carousel-control-prev-icon{
+                filter: invert(100%);    
+                margin-right: 50px;   
+            }
+
+            .visually-hidden{
+
+            }
+        }
+
+        .carousel-control-next{
+            .carousel-control-next-icon{
+                filter: invert(100%);    
+                margin-left: 50px;  
+            }
+
+            .visually-hidden{
+
+            }
+        }
+    }
+
+    div{
+        .specs-hybrid{
+            width: 100%;
+            height: auto;
+        }
+    }    
+
+}
+
+
+
+
+
+       
+    
+
+    
+

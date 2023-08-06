@@ -1,0 +1,43 @@
+.header{
+    width: 100%;  
+    height: auto;  
+    background-color: black;         
+    display: flex;
+    justify-content:space-around;        
+    flex-direction: row;
+    padding: 27px;   
+
+    .header-list{
+        display: flex;   
+        list-style: none;           
+        align-items: center;   
+        padding: 0;
+        margin: 0;
+
+        li{
+            a{
+                text-decoration: none;  
+                font-family: 'Montserrat', sans-serif;
+                color: #ffc845; 
+                font-size: 13px;
+                margin: 10px;  
+            }
+        }
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;      
+        align-items: center;
+
+        a{
+            img{
+                width: 160px;
+                height: 50px;
+            }
+        }
+
+    }
+
+
+}

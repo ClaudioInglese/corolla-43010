@@ -1,0 +1,357 @@
+
+//----MAIN----
+.grid-container{                                    
+    .main{
+        width: 100%;
+        background-color: black;  
+        display: flex;    
+        flex-direction: column; 
+        grid-area: main;   
+
+        .video{
+
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;   
+
+                iframe{
+
+                }
+            }
+        }
+
+        .hero{
+            display: flex;    
+            flex-direction: column;  
+
+            h6{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 12px;
+                letter-spacing: 1px;
+                color: #ffc845;
+                padding-top: 60px;      
+                margin-left: 150px;    
+            }
+
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 54px;
+                font-weight: 400;
+                text-indent: 0;    
+                width: auto;    
+                height: auto;
+                color: white;
+                line-height: 60px;
+                letter-spacing: 0px;
+                margin-left: 150px;      
+                padding-top: 30px; 
+            }
+
+            img{
+                width: 85%;
+                height: auto;    
+                 padding-top: 40px;   
+                align-self: center;   
+            }
+        }
+        .origen{
+            background-color: rgb(6, 6, 12);
+            display: flex;
+            flex-direction: column;
+
+            h6{
+                font-family: 'Montserrat', sans-serif; 
+                font-size: 12px;   
+                letter-spacing: 1px;
+                text-align: center;
+                color: #ffc845;
+                padding-top: 100px;
+                margin-bottom: 24px;
+            }
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                color: white;
+                font-size: 54px;
+                font-weight: 400;
+                padding-bottom: 50px;
+            }
+
+            img{
+                width: 85%;
+                align-self: center; 
+                height: auto;
+            }
+        }
+
+        .inspiracion{
+            font-family: 'Montserrat', sans-serif;  
+
+            h6{
+                font-size: 12px; 
+                letter-spacing: 1px;
+                text-align: center;
+                color: #ffc845;
+                padding-top: 100px;
+                margin-bottom: 24px;
+            }
+
+            h2{
+                text-align: center;
+                color: white;
+                font-size: 54px;
+                font-weight: 400;
+            }
+
+            p{
+                text-align: center;    
+                color: white;
+                font-size: 44px;
+                font-style: italic;
+                font-weight: 400;
+                padding-top: 70px;
+                margin-bottom: 50px;
+            }
+
+            .parallax{
+                width: 100%;
+                height: 100vh;
+                opacity: 67%;
+                background-image: url(../img/corollas.jpg);
+                background-position:center;
+                background-size: contain;   
+                background-repeat: no-repeat; 
+                background-attachment: fixed;  
+            }
+        }
+
+        .exterior{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+            padding-top: 70px;   
+
+            h6{
+                font-size: 14px; 
+                letter-spacing: 1px;
+                text-align: center;
+                color: #ffc845;
+                padding-top: 35px; 
+            }
+
+            h2{
+                text-align: left;
+                margin-left: 40px;
+                color: white;
+                font-size: 40px;
+                font-weight: 400;
+                padding-top: 30px;   
+            }
+
+            .grid-exterior{
+                width: 100%;   
+                height: 100vh;         
+                display: grid; 
+                grid-template-columns: 1fr 1fr;        
+                grid-template-areas: 
+                "llanta llanta"         
+                "faro faro";
+
+                                 
+                .llanta{
+                    grid-area: llanta;
+                    width: 65%;
+                    height: auto;   
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;      
+                    margin-left: auto;
+                    margin-right: 30px;
+
+                    p{
+                        color: white;    
+                        padding-right: 40px;
+                    }
+
+                    img{
+
+
+                    }
+                }
+
+                .faro{
+                    grid-area: faro;
+                    width: 65%;
+                    height: auto;   
+                    display: flex;    
+                    align-items:start;  
+                    justify-content: start;
+                    flex-direction: row-reverse;
+                    margin-top: 50px;
+                    margin-left: 30px;
+
+                    p{
+                        width: 100%;    
+                        color: white;  
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;         
+                        margin-top: 150px;
+                        margin-left: 40px;  
+                    }
+
+                    img{
+
+                    }
+
+                }
+            }
+        }
+
+        .interior{
+
+
+            div{
+
+                h6{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px; 
+                    letter-spacing: 1px;
+                    text-align: center;
+                    color: #ffc845;
+                    margin-bottom: 80px;
+                    margin-top: 100px;
+                    padding-top: 100px;
+                }
+            }
+
+            .grid-galeria{
+                width: 100%;
+                background-color: white;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: 350px;
+                gap: 15px
+                ;
+
+                .grid-item{
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }   
+
+                .grid-item.img-3{
+
+                    img{
+
+                    }
+                }
+
+                .grid-item.img-4{
+
+                    img{
+
+                    }
+                }
+
+                .grid-item.img-9{
+
+                    img{
+
+                    }                   
+                }
+            }
+        }
+
+        .tu-corolla{
+            background-color: black;
+            width: 100%;
+            margin-top: 120px;
+
+            div{
+
+                h2{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px; 
+                    letter-spacing: 1px;
+                    text-align: center;
+                    color: #ffc845;
+                    padding-top: 70px;
+                    margin-bottom: 24px;  
+                }
+
+                img{
+                    width: 100%;    
+                }
+            }
+            
+            .grid-tucorolla{
+                width: 100%;
+                background-color: black;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-auto-rows: 500px;
+                gap: 15px;
+                ;
+
+                .grid-modelo{
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;  
+                    }
+                }
+
+                .grid-modelo.m-hybrid{
+
+                    img{
+
+                    }
+                }
+
+                .grid-conoce{
+                    font-family: 'Montserrat', sans-serif;    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2{
+                        letter-spacing: 1px;
+                        text-align: center;
+                        color: white;
+                        font-size: 40px;  
+                    }
+
+                    .enlace-conoce{
+
+                        .toyota-button{
+                            background-color: yellow;
+                            font-weight: bold;
+                            font-size: 15px;
+                            width: 16rem;
+                            height: 3rem;    
+                            text-align: center;  
+
+                            a{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
+
+    }
+}
