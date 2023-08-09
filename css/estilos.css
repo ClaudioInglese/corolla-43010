@@ -37,6 +37,11 @@
       color: white;
       font-size: 25px; }
 
+.grid-container .header .logo, .header .logo, .grid-container .main .video div, .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce, main .main-reserva, .main-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .grid-container {
   width: 100%;
   font-size: 18px;
@@ -63,13 +68,11 @@
         color: #ffc845;
         font-size: 13px;
         margin: 10px; }
-    .grid-container .header .logo {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .grid-container .header .logo a img {
-        width: 180px;
-        height: 55px; }
+    .grid-container .header .logo a img {
+      width: 180px;
+      height: 55px; }
+    .grid-container .header .button-drp a .btn {
+      text-decoration: none; }
 
 .header {
   width: 100%;
@@ -91,13 +94,11 @@
       color: #ffc845;
       font-size: 13px;
       margin: 10px; }
-  .header .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .header .logo a img {
-      width: 160px;
-      height: 50px; }
+  .header .logo a img {
+    width: 180px;
+    height: 55px; }
+  .header .button-drp a .btn {
+    text-decoration: none; }
 
 .grid-container .main {
   width: 100%;
@@ -105,10 +106,6 @@
   display: flex;
   flex-direction: column;
   grid-area: main; }
-  .grid-container .main .video div {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
   .grid-container .main .hero {
     display: flex;
     flex-direction: column; }
@@ -148,7 +145,7 @@
       color: #ffc845;
       padding-top: 100px;
       margin-bottom: 24px; }
-    .grid-container .main .origen h2 {
+    .grid-container .main .origen h1 {
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       color: white;
@@ -233,8 +230,8 @@
         width: 65%;
         height: auto;
         display: flex;
-        align-items: start;
         justify-content: start;
+        align-items: start;
         flex-direction: row-reverse;
         margin-top: 50px;
         margin-left: 30px; }
@@ -293,10 +290,7 @@
         object-fit: cover; }
       .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
         font-family: 'Montserrat', sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
+        flex-direction: column; }
         .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce h2 {
           letter-spacing: 1px;
           text-align: center;
@@ -312,16 +306,16 @@
           .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce .enlace-conoce .toyota-button a {
             text-decoration: none; }
 
-main .elegir-h2 {
+main .elegir-h1 {
   width: 100%;
   text-align: center; }
-  main .elegir-h2 h2 {
+  main .elegir-h1 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-style: italic;
     letter-spacing: 1px;
     margin-top: 90px;
-    margin-bottom: 120px;
+    margin-bottom: 130px;
     color: #ffc845;
     background-color: black;
     display: inline-block; }
@@ -336,14 +330,14 @@ main .content-all {
   main .content-all .content-carrousel {
     width: 100%;
     position: absolute;
-    animation: rotar 15s infinite linear;
+    animation: girar 15s infinite linear;
     transform-style: preserve-3d; }
     main .content-all .content-carrousel:hover {
       animation-play-state: paused;
       cursor: pointer; }
     main .content-all .content-carrousel figure {
       width: 100%;
-      height: 120px;
+      height: 105px;
       overflow: hidden;
       position: absolute;
       box-shadow: 0px 0px 20px 0px black;
@@ -397,12 +391,8 @@ main div .specs-hybrid {
   width: 100%;
   height: auto; }
 
-main .main-reserva {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  main .main-reserva a img {
-    width: 100%; }
+main .main-reserva a img {
+  width: 100%; }
 
 main .form-reserva {
   text-align: center;
@@ -414,10 +404,10 @@ main .form-reserva {
   margin-bottom: 40px; }
   main .form-reserva .modelos-corolla {
     display: block; }
-    main .form-reserva .modelos-corolla h3 {
+    main .form-reserva .modelos-corolla h1 {
       font-family: 'Montserrat', sans-serif;
       color: black;
-      margin-bottom: 10px; }
+      margin-bottom: 20px; }
     main .form-reserva .modelos-corolla select {
       margin-bottom: 10px; }
   main .form-reserva div label {
@@ -442,9 +432,6 @@ main .form-reserva {
 
 .main-contacto {
   min-height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../img/llaves.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -467,7 +454,7 @@ main .form-reserva {
       margin-left: 2px; }
     .main-contacto .form-contacto div #email {
       margin-left: 20px; }
-    .main-contacto .form-contacto div h3 {
+    .main-contacto .form-contacto div h1 {
       font-family: 'Montserrat', sans-serif;
       color: white;
       margin-top: 25px; }
@@ -799,9 +786,9 @@ footer {
     padding-left: 0; }
   .grid-container footer .footer .footer-menu {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     margin: 0;
     padding-top: 40px;
     padding-left: 0px; }
@@ -852,6 +839,7 @@ footer {
   footer .footer .footer-form {
     display: none; } }
 
+/* --MEDIA 700px--*/
 /* --MEDIA 595px--*/
 @media screen and (max-width: 595px) {
   footer .footer {
@@ -861,9 +849,9 @@ footer {
     padding-left: 0; }
   footer .footer .footer-menu {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     margin: 0;
     padding-top: 40px;
     padding-left: 0px; }
@@ -903,7 +891,7 @@ footer {
   .header .enlace-toyota {
     display: none; } }
 
-@keyframes rotar {
+@keyframes girar {
   from {
     transform: rotateY(0deg); }
   to {

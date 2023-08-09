@@ -1,8 +1,6 @@
 .main-contacto{
     min-height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     background-image: url(../img/llaves.jpg);    
     background-size: cover;   
     background-repeat: no-repeat;     
@@ -36,7 +34,7 @@
                 margin-left: 20px;
             }
             
-            h3{
+            h1{
                 font-family: 'Montserrat', sans-serif;
                 color: white;   
                 margin-top: 25px;

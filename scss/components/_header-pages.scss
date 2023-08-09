@@ -1,3 +1,4 @@
+//----HEADER----//
 .header{
     width: 100%;  
     height: auto;  
@@ -26,18 +27,22 @@
     }
 
     .logo{
-        display: flex;
-        justify-content: center;      
-        align-items: center;
+        @extend %flex;
 
         a{
             img{
-                width: 160px;
-                height: 50px;
+                width: 180px;
+                height: 55px;
             }
         }
 
     }
 
-
+    .button-drp{
+        a{                    
+            .btn{
+                text-decoration: none;
+            }
+        }
+    }
 }

@@ -1,4 +1,4 @@
-//----HEADER----
+//----HEADER----//
 .grid-container{
     width: 100%;             
     font-size: 18px; 
@@ -39,9 +39,7 @@
                                         
                                     
         .logo{
-            display: flex;
-            justify-content: center;      
-            align-items: center;
+            @extend %flex;
                                     
             a{
                                     
@@ -51,6 +49,14 @@
                 }
             }
                                     
+        }
+
+        .button-drp{
+            a{                    
+                .btn{
+                    text-decoration: none;
+                }
+            }
         }
                                     
     }    

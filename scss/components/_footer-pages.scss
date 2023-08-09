@@ -3,9 +3,7 @@ footer{
 
     div{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex (flex, space-between, center);
         flex-direction: column;
     }
 
