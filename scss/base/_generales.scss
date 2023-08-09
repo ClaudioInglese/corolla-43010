@@ -55,6 +55,10 @@
             font-size: 15px;
             border-radius: 0;
             background-color: #ffc845 !important;
+            &:hover{
+                background-color: orangered !important;
+                border: none
+            }
         }
     }
 

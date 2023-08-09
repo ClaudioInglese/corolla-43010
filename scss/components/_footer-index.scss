@@ -79,7 +79,10 @@
                             padding: 10px;
                             
                             i{
-
+                                transition: 1s;
+                                &:hover{
+                                    transform: translateY(-15px)
+                                }
                             }
                         }
                     }
