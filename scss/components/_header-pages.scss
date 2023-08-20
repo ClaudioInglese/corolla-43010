@@ -19,8 +19,8 @@
             a{
                 text-decoration: none;  
                 font-family: 'Montserrat', sans-serif;
-                color: #ffc845; 
-                font-size: 13px;
+                color: nth($paleta-colores, 1);
+                font-size: nth($font-size, 9);
                 margin: 10px;  
             }
         }

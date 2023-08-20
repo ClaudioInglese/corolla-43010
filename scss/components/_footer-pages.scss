@@ -19,7 +19,7 @@ footer{
             h6{
                 font-family: 'Montserrat', sans-serif;
                 color: white;        
-                font-size: 15px;
+                font-size: nth($font-size, 7);
                 padding-left: 5px;
             }
 
@@ -40,8 +40,8 @@ footer{
                 a{
                     font-family: 'Montserrat', sans-serif;    
                     text-decoration: none; 
-                    color: #ffc845;    
-                    font-size: 14px; 
+                    color: nth($paleta-colores, 1);   
+                    font-size: nth($font-size, 8);
                 }
             }
         }
@@ -52,7 +52,7 @@ footer{
             margin-right: 100px;
 
             h6{
-                font-size: 14px;
+                font-size: nth($font-size, 8);
                 font-family: 'Montserrat', sans-serif;
                 color: white;
                 padding-top: 10px;
@@ -87,7 +87,7 @@ footer{
             margin-right: 50px;
 
             h6{
-                font-size: 14px;
+                font-size: nth($font-size, 8);
                 font-family: 'Montserrat', sans-serif;
                 text-decoration: underline;
                 color: white;
@@ -103,7 +103,7 @@ footer{
                 
                     label{
                         font-family: 'Montserrat', sans-serif;
-                        font-size: 16px;
+                        font-size: nth($font-size, 6);
                         color: white;   
                         text-align: center;
 

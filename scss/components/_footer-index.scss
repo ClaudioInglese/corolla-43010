@@ -24,7 +24,7 @@
                 h6{
                     font-family: 'Montserrat', sans-serif;
                     color: white;        
-                    font-size: 15px;
+                    font-size: nth($font-size, 7);
                     padding-left: 5px;
                 }
 
@@ -48,8 +48,8 @@
                     a{
                         font-family: 'Montserrat', sans-serif;    
                         text-decoration: none; 
-                        color: #ffc845;    
-                        font-size: 14px;   
+                        color: nth($paleta-colores, 1);  
+                        font-size: nth($font-size, 8);  
                     }
                 }
 
@@ -61,7 +61,7 @@
                 margin-right: 90px;
 
                 h6{
-                    font-size: 14px;
+                    font-size: nth($font-size, 8);
                     font-family: 'Montserrat', sans-serif;
                     color: white;
                     padding-top: 10px;
@@ -95,7 +95,7 @@
                 margin-right: 50px;
 
                 h6{
-                    font-size: 14px;
+                    font-size: nth($font-size, 8);
                     font-family: 'Montserrat', sans-serif;
                     text-decoration: underline;
                     color: white;
@@ -112,7 +112,7 @@
 
                         label{
                             font-family: 'Montserrat', sans-serif;
-                            font-size: 16px;
+                            font-size: nth($font-size, 6);
                             color: white;   
                             text-align: center; 
                         }

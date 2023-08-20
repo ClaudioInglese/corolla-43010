@@ -1,7 +1,7 @@
 //----HEADER----//
 .grid-container{
     width: 100%;             
-    font-size: 18px; 
+    font-size: nth($font-size, 5); 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px auto 200px;
@@ -30,8 +30,8 @@
                  a{
                     text-decoration: none;  
                     font-family: 'Montserrat', sans-serif;
-                    color: #ffc845; 
-                    font-size: 13px;
+                    color: nth($paleta-colores, 1);
+                    font-size: nth($font-size, 9);
                     margin: 10px;  
                 }
             }
