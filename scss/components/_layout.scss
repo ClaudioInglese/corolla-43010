@@ -303,6 +303,10 @@
                         width: 100%;
                         height: 100%;
                         object-fit: cover;  
+                        transition: 2.5s; 
+                        &:hover{
+                            transform: rotateY(360deg);
+                        }
                     }
                 }
 
@@ -325,21 +329,8 @@
                         font-size: 40px;  
                     }
 
-                    .enlace-conoce{
-
-                        .toyota-button{
-                            background-color: yellow;
-                            font-weight: bold;
-                            font-size: 15px;
-                            width: 16rem;
-                            height: 3rem;    
-                            text-align: center;  
-
-                            a{
-                                text-decoration: none;
-                            }
-                        }
-                    }
+                  
+                    
                 }
 
             }

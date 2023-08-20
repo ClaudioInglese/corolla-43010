@@ -9,11 +9,12 @@
     <meta property="og:title" content="TOYOTA COROLLA | INFO Y RESERVA">
     <meta property="og:url" content="https://www.....">
     <meta property="og:image" content="https://www.....">
-    <meta property="og:description" content="Pagina de informacion sobre Toyota Corolla donde se puede conocer sus modelos con todas sus prestaciones y hacer tu reserva del que mas te guste.">
+    <meta property="og:description" content="Pagina de informacion sobre los modelos de Toyota Corolla donde puedes elegir entre todos el que sea mas acorde a tus necesidades.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"> 
@@ -23,18 +24,18 @@
     <header class="header">     
         <ul class="header-list">
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./pages/especificaciones.html">Especificaciones Tecnicas</a></li>
-            <li><a href="./pages/reserva.html">Reserva tu 0km</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
+            <li><a href="./especificaciones.html">Especificaciones Tecnicas</a></li>
+            <li><a href="./reserva.html">Reserva tu 0km</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
         </ul>
         
         
         <div class="logo">
-            <a href="../index.html"><img src="../img/corolla-logo.jpg" alt="Logo"></a>
+            <a href="./index.html"><img class="animate__animated animate__flip" src="../img/corolla-logo.jpg" alt="Logo Corolla"></a>
         </div>
         
         <div class="button-drp d-flex justify-content-center align-items-center d-flex">
-            <a href="https://www.toyota.com"><button class="btn btn-outline-warning bg-warning text-dark" type="submit">CONTACTO TOYOTA&nbsp;&nbsp;&nbsp;&nbsp;></button></a>
+            <a href="https://www.toyota.com"><button class="btn btn-warning text-dark" type="submit">CONTACTO TOYOTA&nbsp;&nbsp;&nbsp;&nbsp;></button></a>
         </div>
         
         <div class="col-md-2 d-flex align-items-center d-md-flex justify-content-center">
@@ -45,7 +46,7 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="./modelos.html">Modelos</a></li>
                     <li><a class="dropdown-item" href="./especificaciones.html">Especif. Tecnicas</a></li>
-                    <li><a class="dropdown-item" href="./reserva.html">Reserva tu Okm</a></li>
+                    <li><a class="dropdown-item" href=".reserva.html">Reserva tu Okm</a></li>
                     <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>                                                         
                 </ul>
             </li>                    
@@ -55,25 +56,65 @@
 
 
     <!-----MAIN----->  
-    <main>
-        <div class="elegir-h1">
-            <h1>ELEGÍ TU COROLLA</h1>
-        </div>
-        <div class="content-all">
-            <div class="content-carrousel">
-                <figure><img src="./img/corolla-20.jpg" alt="Corolla SEG"></figure>
-                <figure><img src="../img/corolla-hybrid.jpg" alt="Corolla Hybrid"></figure>
-                <figure><img src="../img/corolla_cross.jpg" alt="Corolla Cross"></figure>
-                <figure><img src="../img/corolla-grs.jpg" alt="Corolla GR-Sport"></figure>
-                <figure><img src="../img/corolla-20.jpg" alt="Corolla SEG"></figure>
-                <figure><img src="../img/corolla-hybrid.jpg" alt="Corolla Hybrid"></figure>
-                <figure><img src="../img/corolla_cross.jpg" alt="Corolla Cross"></figure>
-                <figure><img src="../img/corolla-grs.jpg" alt="Corolla GR-Sport"></figure>
-                <figure><img src="../img/corolla-20.jpg" alt="Corolla SEG"></figure>
-                <figure><img src="../img/corolla_cross.jpg" alt="Corolla Hybrid"></figure>
-                
+    <main>        
+        <div class="container">
+            <div class="elegir-h1">
+                <h1>ELEGÍ TU COROLLA</h1>
+            </div>
+
+            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12"> 
+                <div class="content-all">
+                    <div class="content-carrousel">
+                        <figure><img src="../img/corolla-20.jpg"></figure>
+                        <figure><img src="../img/corolla-hybrid.jpg"></figure>
+                        <figure><img src="../img/corolla_cross.jpg"></figure>
+                        <figure><img src="../img/corolla-grs.jpg"></figure>
+                        <figure><img src="../img/corolla-20.jpg"></figure>                               
+                    </div>
+                </div>
+            </div>    
+        </div>    
+
+        
+        <div class="container-fluid">
+            <div class="col-xl-12 lg-12 md-12 sm-12">                
+                <img class="animate__animated animate__bounceInLeft" src="../img/seg-logo.png" alt="seg-logo">
+                <p>Comenzando por su diseño, la especificación para Japón incluye diferencias con respecto a la versión comercializada en el Viejo Continente o en América del Norte, que se encuentran sobre todo en el sector frontal, con una toma de aire trapezoidal más grande, emblemas específicos y un paragolpes más prominente, junto con faros más finos y alargados, detalles que le dan un aire más deportivo.</p>
+                <img class="pics" src="../img/corolla-seg-pic.jpg">
+                <p>En cuanto a seguridad, el sedán –aunque también están disponibles en la versión hatchback y rural-, sumó más sistemas de asistencia a la conducción. El paquete Toyota Smart Sense fue rebautizado como T-Mate y agrega asistente de dirección de emergencia, que actúa sobre la dirección para evitar una colisión o mantener al vehículo en el carril; supresión de acelerador, que impide el accionamiento repentino del acelerador a baja velocidad, un error bastante común que suele darse por ejemplo en maniobras de estacionamiento cuando el conductor confunde el pedal del acelerador con el de freno; y el asistente de salida, que avisa la proximidad de un ciclista u otro vehículo antes de abrir las puertas. La transmisión es automática e-CVT y simula diez cambios, mientras que la tracción es delantera.</p>                
             </div>
         </div>
+
+        <div class="container-fluid">
+            <div class="col-xl-12 lg-12 md-12 sm-12">                
+                <img class="animate__animated animate__bounceInLeft" src="../img/hybrid-logo.png" alt="hybrid-logo">
+                <p>Mecánicamente, tal como lo había anticipado la compañía, la versión híbrida 1.8 pasa de erogar 122 CV a 140 CV gracias a un sistema híbrido de 5ta generación, con cambios tanto en el motor de combustión como en el eléctrico. Toyota señala que el módulo de control de potencia fue rediseñado y las baterías de iones de litio son más potentes y a la vez más livianas, permitiendo una reducción de peso de hasta 18 kilos. De esta manera, las versiones 1.8 pueden acelerar de 0 a 100 km/h en 9,2 segundos, con un rendimiento homologado de 30,2 km/l.</p>
+                <img class="pics" src="../img/corolla-hybrid-pic.jpg">
+                <p>Para 2024, además de la mecánica, la versión hibrida del sedán se renovaría con cambios en su interior, más precisamente sumando una pantalla para el sistema multimedia de 10,5'' (la actual es de 8''). Quizás también incorpore una pantalla para el panel de instrumentos, de 12'' (7''), tal como estrenó del otro lado del Atlántico. En cuanto al exterior, el Corolla Hybrid sumaría pequeños cambios, centrados en el frente, al retocarse el entramado de la toma de aire y las ópticas. Además, el rediseñado también alcanzaría a las llantas.</p>                
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="col-xl-12 lg-12 md-12 sm-12">                
+                <img class="animate__animated animate__bounceInLeft" src="../img/cross-logo.png" alt="cross-logo">
+                <p>La Corolla Cross es uno de los lanzamientos más importantes del 2021. Por primera vez en su historia, Toyota comenzó a fabricar en el Mercosur una SUV para el Segmento C (compacto). Y lo hizo apoyándose en un nombre icónico: el Corolla, que es el auto más vendido del mundo.</p>
+                <img class="pics" src="../img/corolla-cross-pic.jpg">
+                <p>Con excepción de los emblemas no hay manera de distinguir por fuera a la Corolla Cross Hybrid de la 100% naftera. Sólo un detalle externo las diferencia en este nivel de equipamiento: la versión naftera tiene techo corredizo, mientras que la Hybrid no lo ofrece en ninguna versión. El techo solar es un opcional que se ofrece en la Hybrid en Brasil, pero que en Argentina no está disponible por una “razón de costos”. Su principal virtud con respecto al Corolla Sedán es el mayor despeje del suelo: esto facilita el acceso al habitáculo y permite circular con mayor fluidez por caminos en mal estado (hablo de baches, badenes, cunetas y lomos de burro, nada de off-road porque no hay opción 4WD).</p>                
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="col-xl-12 lg-12 md-12 sm-12">                
+                <img class="animate__animated animate__bounceInLeft" src="../img/grs-logo.png" alt="grs-logo">
+                <p>El GR Corolla recoge todos los trucos del GR Yaris pero los exhibe en un auto más grande, más práctico y con un poco más de potencia para compensar el peso y el volumen extra. Con 300 CV y tracción en las cuatro ruedas, también será heredero de todo el linaje GT Four, además de que llega para pagar la deuda de tener un Corolla que sea realmente deportivo, algo que no vemos desde hace muchísimo tiempo. El modelo recibió cambios en la fascia, las llantas y la parte trasera, con un kit aerodinámico que lo hace más agresivo.</p>
+                <img class="pics" src="../img/corolla-grs-pic.jpg">
+                <p>Con respecto al GR Yaris, obviamente el GR Corolla es más grande. Por otro lado, si lo comparamos con un Corolla hatchback normal, el ancho es lo que más cambia, pasando de 1.790 mm a 1.850 mm, gracias a que cuenta con guardabarros mucho más anchos (entre 20 y 30 mm) además de una trocha más grande. Por último, debido al bodykit, también es más largo.
+                    La marca aseguró que se trabajó la suspensión para ofrecer “un desempeño dinámico más deportivo”. La única combinación mecánica confirmada hasta el momento es conocida de 170 hp de potencia y 200 nm de toque, combinada con caja automática CVT.</p>                
+            </div>
+        </div>
+
+        
+
     </main>
 
 
@@ -87,9 +128,9 @@
         
             <ul class="footer-menu">
                 <li><a href="../index.html">Inicio</a></li>                
-                <li><a href="./pages/especificaciones.html">Especif. Tecnicas</a></li>
-                <li><a href="./pages/reserva.html">Reserva tu 0km</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./especificaciones.html">Especif. Tecnicas</a></li>
+                <li><a href="./reserva.html">Reserva tu 0km</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         
             <div class="redes">

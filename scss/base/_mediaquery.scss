@@ -482,3 +482,76 @@
       display: none;
     }  
 }
+
+
+
+            /*-----------RESERVA--------------*/
+
+/* --MEDIA 991px--*/
+
+@media screen and (max-width: 991px){
+
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check{
+        padding-left: 15px;
+    }
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check .form-check-input{
+        
+        margin-left: 0px;        
+        
+    }
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check .form-check-label{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+}
+
+
+/* --MEDIA 767px--*/
+
+@media screen and (max-width: 767px){
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check{
+        width: 100%;
+        padding-left: 6px;
+        
+    }
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check .form-check-input{
+        margin-right: 5px;       
+    }
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check .form-check-label{
+        
+        margin-left: 0px;
+        margin-right: 0px;                
+    }
+}
+
+/* --MEDIA 538px--*/
+@media screen and (max-width: 538px){
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;                                                           
+    }
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo .form-check{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;                                           
+    }
+
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .form-check .form-check-input{
+        margin: 10px;   
+    }
+
+    main .container .col-xl-12 .form-reserva .modelos-corolla .form-check .form-check-label{
+        margin: 0;
+    }
+}
