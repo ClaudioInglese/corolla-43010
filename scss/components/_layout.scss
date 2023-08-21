@@ -8,17 +8,7 @@
         flex-direction: column; 
         grid-area: main;   
 
-        .video{
-
-            div{
-                @extend %flex;   
-
-                iframe{
-
-                }
-            }
-        }
-
+   
         .hero{
             display: flex;    
             flex-direction: column;  
@@ -170,12 +160,7 @@
                     p{
                         color: white;    
                         padding-right: 40px;
-                    }
-
-                    img{
-
-
-                    }
+                    }                    
                 }
 
                 .faro{
@@ -193,12 +178,7 @@
                         @include flex (flex, end, center);
                         margin-top: 150px;
                         margin-left: 40px;  
-                    }
-
-                    img{
-
-                    }
-
+                    }                    
                 }
             }
         }
@@ -241,28 +221,7 @@
                             transform: scale(1.2);
                         }
                     }
-                }   
-
-                .grid-item.img-3{
-
-                    img{
-
-                    }
-                }
-
-                .grid-item.img-4{
-
-                    img{
-
-                    }
-                }
-
-                .grid-item.img-9{
-
-                    img{
-
-                    }                   
-                }
+                }                                               
             }
         }
 
@@ -309,14 +268,7 @@
                         }
                     }
                 }
-
-                .grid-modelo.m-hybrid{
-
-                    img{
-
-                    }
-                }
-
+              
                 .grid-conoce{
                     font-family: 'Montserrat', sans-serif;    
                     @extend %flex;
