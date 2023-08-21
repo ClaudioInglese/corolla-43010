@@ -294,9 +294,13 @@ main{
                     font-size: 14px;
 
                     div {
+                        @extend %flex;
+
                         h1 {
-                            text-align: center;
-                            padding: 30px;
+                            border: 2px solid;
+                            background-color: #ffc845;
+                            padding: 2px 10px 2px 10px;    
+                            margin-bottom: 35px;  
                         }
                     }
 
