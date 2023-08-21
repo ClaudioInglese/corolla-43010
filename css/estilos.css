@@ -169,7 +169,7 @@ main {
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
       font-size: 14px; }
-      main .container .col-xl-12 .form-reserva .modelos-corolla div h3 {
+      main .container .col-xl-12 .form-reserva .modelos-corolla div h1 {
         text-align: center;
         padding: 30px; }
       main .container .col-xl-12 .form-reserva .modelos-corolla .reserva-modelo {
@@ -250,7 +250,7 @@ main {
       border-radius: 0;
       margin-bottom: 30px; }
 
-main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo, .grid-container .main .video div, .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
+main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo, .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -320,10 +320,14 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
   display: flex;
   flex-direction: column;
   grid-area: main; }
+  .grid-container .main .video div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .grid-container .main .hero {
     display: flex;
     flex-direction: column; }
-    .grid-container .main .hero h6 {
+    .grid-container .main .hero h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 12px;
       letter-spacing: 1px;
@@ -351,7 +355,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
     background-color: #06060c;
     display: flex;
     flex-direction: column; }
-    .grid-container .main .origen h6 {
+    .grid-container .main .origen h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 12px;
       letter-spacing: 1px;
@@ -359,7 +363,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
       color: #ffc845;
       padding-top: 100px;
       margin-bottom: 24px; }
-    .grid-container .main .origen h1 {
+    .grid-container .main .origen h2 {
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       color: white;
@@ -372,7 +376,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
       height: auto; }
   .grid-container .main .inspiracion {
     font-family: 'Montserrat', sans-serif; }
-    .grid-container .main .inspiracion h6 {
+    .grid-container .main .inspiracion h1 {
       font-size: 12px;
       letter-spacing: 1px;
       text-align: center;
@@ -408,7 +412,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     padding-top: 70px; }
-    .grid-container .main .exterior h6 {
+    .grid-container .main .exterior h1 {
       font-size: 14px;
       letter-spacing: 1px;
       text-align: center;
@@ -457,7 +461,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
           align-items: center;
           margin-top: 150px;
           margin-left: 40px; }
-  .grid-container .main .interior div h6 {
+  .grid-container .main .interior div h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
@@ -485,7 +489,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
     background-color: black;
     width: 100%;
     margin-top: 120px; }
-    .grid-container .main .tu-corolla div h2 {
+    .grid-container .main .tu-corolla div h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       letter-spacing: 1px;
@@ -512,7 +516,7 @@ main .main-reserva, .main-contacto, .grid-container .header .logo, .header .logo
       .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
         font-family: 'Montserrat', sans-serif;
         flex-direction: column; }
-        .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce h2 {
+        .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce h1 {
           letter-spacing: 1px;
           text-align: center;
           color: white;
@@ -554,7 +558,7 @@ main div .specs-hybrid {
     display: flex;
     flex-direction: row;
     padding-top: 50px; }
-    .grid-container footer .footer .logo-toyota-footer h6 {
+    .grid-container footer .footer .logo-toyota-footer h1 {
       font-family: 'Montserrat', sans-serif;
       color: white;
       font-size: 15px;
@@ -575,7 +579,7 @@ main div .specs-hybrid {
       display: flex;
       justify-content: center;
       margin-right: 90px; }
-      .grid-container footer .footer .redes h6 {
+      .grid-container footer .footer .redes h1 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         color: white;
@@ -595,7 +599,7 @@ main div .specs-hybrid {
       width: 100%;
       display: flex;
       margin-right: 50px; }
-      .grid-container footer .footer .footer-form h6 {
+      .grid-container footer .footer .footer-form h1 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         text-decoration: underline;
@@ -638,7 +642,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding-top: 50px; }
-    footer .footer .logo-toyota-footer h6 {
+    footer .footer .logo-toyota-footer h1 {
       font-family: 'Montserrat', sans-serif;
       color: white;
       font-size: 15px;
@@ -659,7 +663,7 @@ footer {
       display: flex;
       justify-content: center;
       margin-right: 100px; }
-      footer .footer .redes h6 {
+      footer .footer .redes h1 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         color: white;
@@ -680,7 +684,7 @@ footer {
       width: 100%;
       display: flex;
       margin-right: 50px; }
-      footer .footer .footer-form h6 {
+      footer .footer .footer-form h1 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         text-decoration: underline;

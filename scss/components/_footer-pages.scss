@@ -16,7 +16,7 @@ footer{
         padding-top: 50px;   
         
         .logo-toyota-footer{
-            h6{
+            h1{
                 font-family: 'Montserrat', sans-serif;
                 color: white;        
                 font-size: nth($font-size, 7);
@@ -51,7 +51,7 @@ footer{
             justify-content: center;
             margin-right: 100px;
 
-            h6{
+            h1{
                 font-size: nth($font-size, 8);
                 font-family: 'Montserrat', sans-serif;
                 color: white;
@@ -86,7 +86,7 @@ footer{
             display: flex;
             margin-right: 50px;
 
-            h6{
+            h1{
                 font-size: nth($font-size, 8);
                 font-family: 'Montserrat', sans-serif;
                 text-decoration: underline;
