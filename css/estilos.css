@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 /*-----BOOTSTRAP INDEX----*/
-.grid-container .header .button-drp .btn {
+.grid-container .header .navbar .button-drp .btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 15px;
@@ -16,18 +16,18 @@
   color: white;
   cursor: pointer;
   transition: background-color 1s ease-in-out; }
-  .grid-container .header .button-drp .btn:hover {
+  .grid-container .header .navbar .button-drp .btn:hover {
     background-color: orangered !important;
     color: white !important;
     font-weight: lighter;
     box-shadow: 0 0 20px var(--color);
     border-color: var(--color); }
 
-.grid-container .header .col-md-2 {
+.grid-container .header .navbar .col-md-2 {
   width: 0; }
-  .grid-container .header .col-md-2 .nav-item {
+  .grid-container .header .navbar .col-md-2 .nav-item {
     list-style: none; }
-    .grid-container .header .col-md-2 .nav-item .nav-link i {
+    .grid-container .header .navbar .col-md-2 .nav-item .nav-link i {
       color: white;
       font-size: 25px; }
 
@@ -186,6 +186,8 @@ main {
   main .container .row {
     margin-top: 80px; }
     main .container .row .col-xl-12 .btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
       text-align: center;
       border-radius: 0;
       margin-bottom: 15px; }
@@ -248,11 +250,12 @@ main {
     .main-contacto .container .terms .button-form .btn {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
+      font-weight: bold;
       margin-top: 20px;
       border-radius: 0;
       margin-bottom: 30px; }
 
-main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla div, .main-contacto, .grid-container .header .logo, .header .logo, .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
+main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla div, .main-contacto, .grid-container .header .navbar .logo, .header .navbar .logo, .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -268,53 +271,57 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
   grid-template-rows: 100px auto 200px;
   grid-template-areas: "header header header" "main main main" "footer footer footer"; }
   .grid-container .header {
+    grid-area: header;
+    padding-top: 10px; }
+    .grid-container .header .navbar {
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 27px; }
+      .grid-container .header .navbar .header-list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        padding-left: 0; }
+        .grid-container .header .navbar .header-list li a {
+          text-decoration: none;
+          font-family: 'Montserrat', sans-serif;
+          color: #ffc845;
+          font-size: 13px;
+          margin: 10px; }
+      .grid-container .header .navbar .logo a img {
+        width: 180px;
+        height: 55px; }
+
+.header {
+  padding-top: 10px; }
+  .header .navbar {
     width: 100%;
+    height: auto;
     background-color: black;
     display: flex;
     justify-content: space-around;
-    grid-area: header;
     flex-direction: row;
     padding: 27px; }
-    .grid-container .header .header-list {
+    .header .navbar .header-list {
       display: flex;
       list-style: none;
       align-items: center;
-      padding-left: 0; }
-      .grid-container .header .header-list li a {
+      padding: 0;
+      margin: 0; }
+      .header .navbar .header-list li a {
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         color: #ffc845;
         font-size: 13px;
         margin: 10px; }
-    .grid-container .header .logo a img {
+    .header .navbar .logo a img {
       width: 180px;
       height: 55px; }
-
-.header {
-  width: 100%;
-  height: auto;
-  background-color: black;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  padding: 27px; }
-  .header .header-list {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    padding: 0;
-    margin: 0; }
-    .header .header-list li a {
-      text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
-      color: #ffc845;
-      font-size: 13px;
-      margin: 10px; }
-  .header .logo a img {
-    width: 180px;
-    height: 55px; }
-  .header .button-drp a .btn {
-    text-decoration: none; }
+    .header .navbar .button-drp a .btn {
+      text-decoration: none; }
 
 .grid-container .main {
   width: 100%;
@@ -339,7 +346,7 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
       margin-left: 150px; }
     .grid-container .main .hero h2 {
       font-family: 'Montserrat', sans-serif;
-      font-size: 54px;
+      font-size: 40px;
       font-weight: 400;
       text-indent: 0;
       width: auto;
@@ -358,7 +365,7 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
     background-color: #06060c;
     display: flex;
     flex-direction: column; }
-    .grid-container .main .origen h1 {
+    .grid-container .main .origen p {
       font-family: 'Montserrat', sans-serif;
       font-size: 12px;
       letter-spacing: 1px;
@@ -370,7 +377,7 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       color: white;
-      font-size: 54px;
+      font-size: 40px;
       font-weight: 400;
       padding-bottom: 50px; }
     .grid-container .main .origen img {
@@ -379,8 +386,9 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
       height: auto; }
   .grid-container .main .inspiracion {
     font-family: 'Montserrat', sans-serif; }
-    .grid-container .main .inspiracion h1 {
+    .grid-container .main .inspiracion .tc {
       font-size: 12px;
+      font-style: normal;
       letter-spacing: 1px;
       text-align: center;
       color: #ffc845;
@@ -389,12 +397,12 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
     .grid-container .main .inspiracion h2 {
       text-align: center;
       color: white;
-      font-size: 54px;
+      font-size: 40px;
       font-weight: 400; }
     .grid-container .main .inspiracion p {
       text-align: center;
       color: white;
-      font-size: 44px;
+      font-size: 30px;
       font-style: italic;
       font-weight: 400;
       padding-top: 70px;
@@ -415,7 +423,7 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     padding-top: 70px; }
-    .grid-container .main .exterior h1 {
+    .grid-container .main .exterior .dex {
       font-size: 14px;
       letter-spacing: 1px;
       text-align: center;
@@ -464,7 +472,7 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
           align-items: center;
           margin-top: 150px;
           margin-left: 40px; }
-  .grid-container .main .interior div h1 {
+  .grid-container .main .interior div p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
@@ -492,7 +500,7 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
     background-color: black;
     width: 100%;
     margin-top: 120px; }
-    .grid-container .main .tu-corolla div h1 {
+    .grid-container .main .tu-corolla div p {
       font-family: 'Montserrat', sans-serif;
       font-size: 14px;
       letter-spacing: 1px;
@@ -519,11 +527,11 @@ main .main-reserva, main .container .col-xl-12 .form-reserva .modelos-corolla di
       .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce {
         font-family: 'Montserrat', sans-serif;
         flex-direction: column; }
-        .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce h1 {
+        .grid-container .main .tu-corolla .grid-tucorolla .grid-conoce p {
           letter-spacing: 1px;
           text-align: center;
           color: white;
-          font-size: 40px; }
+          font-size: 35px; }
 
 main .fs-2 {
   margin-top: 60px;
@@ -561,7 +569,7 @@ main div .specs-hybrid {
     display: flex;
     flex-direction: row;
     padding-top: 50px; }
-    .grid-container footer .footer .logo-toyota-footer h1 {
+    .grid-container footer .footer .logo-toyota-footer h2 {
       font-family: 'Montserrat', sans-serif;
       color: white;
       font-size: 15px;
@@ -582,7 +590,7 @@ main div .specs-hybrid {
       display: flex;
       justify-content: center;
       margin-right: 90px; }
-      .grid-container footer .footer .redes h1 {
+      .grid-container footer .footer .redes h2 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         color: white;
@@ -602,7 +610,7 @@ main div .specs-hybrid {
       width: 100%;
       display: flex;
       margin-right: 50px; }
-      .grid-container footer .footer .footer-form h1 {
+      .grid-container footer .footer .footer-form h2 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         text-decoration: underline;
@@ -623,8 +631,8 @@ main div .specs-hybrid {
           font-family: 'Montserrat', sans-serif;
           color: black; }
       .grid-container footer .footer .footer-form form div button {
-        color: white;
-        background-color: blue;
+        color: black;
+        background-color: #ffc845;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 145px;
@@ -645,7 +653,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding-top: 50px; }
-    footer .footer .logo-toyota-footer h1 {
+    footer .footer .logo-toyota-footer h2 {
       font-family: 'Montserrat', sans-serif;
       color: white;
       font-size: 15px;
@@ -666,12 +674,13 @@ footer {
       display: flex;
       justify-content: center;
       margin-right: 100px; }
-      footer .footer .redes h1 {
+      footer .footer .redes h2 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         color: white;
         padding-top: 10px;
-        padding-bottom: 10px; }
+        padding-bottom: 10px;
+        text-align: center; }
       footer .footer .redes ul {
         display: flex;
         flex-direction: row;
@@ -687,7 +696,7 @@ footer {
       width: 100%;
       display: flex;
       margin-right: 50px; }
-      footer .footer .footer-form h1 {
+      footer .footer .footer-form h2 {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         text-decoration: underline;
@@ -708,8 +717,10 @@ footer {
           font-family: 'Montserrat', sans-serif;
           color: black; }
         footer .footer .footer-form form div button {
-          color: white;
-          background-color: blue;
+          color: black;
+          background-color: #ffc845;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: bold;
           margin-top: 10px;
           margin-bottom: 10px;
           margin-left: 135px;
@@ -719,14 +730,14 @@ footer {
 /*---------INDEX------------*/
 /* --MEDIA 1850px--*/
 @media screen and (max-width: 1850px) {
-  .grid-container .main .interior div h1 {
+  .grid-container .main .interior div p {
     margin-top: 50px; } }
 
 /* --MEDIA 1715px--*/
 @media screen and (max-width: 1715px) {
-  .grid-container .main .interior div h1 {
+  .grid-container .main .interior div p {
     margin-top: 30px; }
-  .grid-container .footer .redes h6 {
+  .grid-container .footer .redes h2 {
     text-align: center; } }
 
 /* --MEDIA 1570px--*/
@@ -745,18 +756,18 @@ footer {
 
 /* --MEDIA 1175px--*/
 @media screen and (max-width: 1175px) {
-  .grid-container .header {
+  .grid-container .header .navbar {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .grid-container .header .header-list {
+  .grid-container .header .navbar .header-list {
     display: none; }
-  .grid-container .header .logo a img {
+  .grid-container .header .navbar .logo a img {
     width: 170px;
     height: 65px; }
-  .grid-container .header .button-drp .btn {
+  .grid-container .header .navbar .button-drp .btn {
     display: none; }
-  .grid-container .header .col-md-2 .nav-item .nav-link i {
+  .grid-container .header .navbar .col-md-2 .nav-item .nav-link i {
     margin-left: 45px;
     font-size: 35px; }
   .grid-container .main .tu-corolla .grid-conoce .enlace-conoce button {
@@ -770,7 +781,7 @@ footer {
   .grid-container .main .exterior .grid-exterior .faro p {
     text-align: center;
     margin-top: 55px; }
-  .grid-container .main .interior div h1 {
+  .grid-container .main .interior div p {
     padding-top: 0;
     margin-top: auto; } }
 
@@ -797,8 +808,7 @@ footer {
     line-height: 45px; }
   .grid-container .main .inspiracion p {
     font-size: 30px;
-    line-height: 45px;
-    padding-top: 0; }
+    line-height: 45px; }
   .grid-container .main .exterior h2 {
     font-size: 30px; }
   .grid-container .main .exterior .grid-exterior .faro p {
@@ -852,6 +862,20 @@ footer {
   .grid-container footer .footer .footer-form {
     display: none; } }
 
+/* --MEDIA 768px--*/
+@media screen and (max-width: 768px) {
+  .grid-container .main .interior .grid-galeria {
+    display: flex;
+    flex-direction: column; }
+  .grid-container .main .interior .grid-galeria .img-6 {
+    display: none; }
+  .grid-container .main .interior .grid-galeria .img-7 {
+    display: none; }
+  .grid-container .main .interior .grid-galeria .img-8 {
+    display: none; }
+  .grid-container .main .interior .grid-galeria .img-9 {
+    display: none; } }
+
 /* --MEDIA 595px--*/
 @media screen and (max-width: 595px) {
   .grid-container .main .hero h1 {
@@ -860,10 +884,7 @@ footer {
     margin-left: 0px; }
   .grid-container .main .interior {
     margin-top: 10px; }
-  .grid-container .main .interior .grid-galeria {
-    display: flex;
-    flex-direction: column; }
-  .grid-container .main .interior div h1 {
+  .grid-container .main .interior div p {
     margin-bottom: 45px; }
   .grid-container .main .tu-corolla .grid-tucorolla {
     display: grid;
@@ -897,7 +918,7 @@ footer {
     padding: 0;
     margin-top: 40px;
     margin-bottom: 20px; }
-  .grid-container footer .footer .redes h1 {
+  .grid-container footer .footer .redes h2 {
     padding-bottom: 10px; } }
 
 /*-----------MEDIA MODELOS--------------*/
@@ -908,18 +929,18 @@ footer {
 
 /* --MEDIA 1175px--*/
 @media screen and (max-width: 1175px) {
-  .header {
+  .header .navbar {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .header .header-list {
+  .header .navbar .header-list {
     display: none; }
-  .header .logo a img {
+  .header .navbar .logo a img {
     width: 170px;
     height: 65px; }
-  .header .button-drp .btn {
+  .header .navbar .button-drp .btn {
     display: none; }
-  .header .col-md-2 .nav-item .nav-link i {
+  .header .navbar .col-md-2 .nav-item .nav-link i {
     margin-left: 45px;
     font-size: 35px; } }
 
@@ -928,7 +949,6 @@ footer {
   footer .footer .footer-form {
     display: none; } }
 
-/* --MEDIA 700px--*/
 /* --MEDIA 595px--*/
 @media screen and (max-width: 595px) {
   footer .footer {
@@ -972,12 +992,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .header .header-list {
+  .header .navbar .header-list {
     display: none; }
-  .header .logo a img {
+  .header .navbar .logo a img {
     width: 170px;
     height: 65px; }
-  .header .enlace-toyota {
+  .header .navbar .enlace-toyota {
     display: none; } }
 
 /*-----------RESERVA--------------*/

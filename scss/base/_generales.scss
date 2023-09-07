@@ -13,44 +13,46 @@
 /*-----BOOTSTRAP INDEX----*/
 .grid-container {
     .header {
-        .button-drp {
+        .navbar{
+            .button-drp {
 
-            .btn {
-                font-family: 'Montserrat', sans-serif;
-                font-weight: bold;
-                font-size: 15px;
-                border-radius: 0;
-                background-color: #ffc845 !important;
-                border: 3px solid;
-                color: white;
-                cursor: pointer;
-                transition: background-color 1s ease-in-out;
+                .btn {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 15px;
+                    border-radius: 0;
+                    background-color: #ffc845 !important;
+                    border: 3px solid;
+                    color: white;
+                    cursor: pointer;
+                    transition: background-color 1s ease-in-out;
 
-                &:hover {
-                    background-color: orangered !important;
-                    color: white !important;
-                    font-weight: lighter;
-                    box-shadow: 0 0 20px var(--color);
-                    border-color: var(--color);
-                }
-            }
-        }
-
-        .col-md-2 {
-            width: 0;
-
-            .nav-item {
-                list-style: none;
-
-                .nav-link {
-
-                    i {
-                        color: white;
-                        font-size: 25px;
+                    &:hover {
+                        background-color: orangered !important;
+                        color: white !important;
+                        font-weight: lighter;
+                        box-shadow: 0 0 20px var(--color);
+                        border-color: var(--color);
                     }
                 }
             }
-        }
+
+            .col-md-2 {
+                width: 0;
+
+                .nav-item {
+                    list-style: none;
+
+                    .nav-link {
+
+                        i {
+                            color: white;
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }    
     }
 
     main{
@@ -331,7 +333,9 @@ main{
 
             .col-xl-12 {
 
-                .btn {
+                .btn {      
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;              
                     text-align: center;
                     border-radius: 0;
                     margin-bottom: 15px;
@@ -446,6 +450,7 @@ main{
                 .btn {
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px;
+                    font-weight: bold;
                     margin-top: 20px;
                     border-radius: 0;
                     margin-bottom: 30px;

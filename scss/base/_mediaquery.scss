@@ -5,7 +5,7 @@
 /* --MEDIA 1850px--*/
 @media screen and (max-width: 1850px){
     
-    .grid-container .main .interior div h1{
+    .grid-container .main .interior div p{
         margin-top: 50px;
     }
 }
@@ -13,11 +13,11 @@
 /* --MEDIA 1715px--*/
 @media screen and (max-width: 1715px){
   
-    .grid-container .main .interior div h1{
+    .grid-container .main .interior div p{
         margin-top: 30px;
     }
 
-    .grid-container .footer .redes h6{
+    .grid-container .footer .redes h2{
         text-align: center;   
     }
 }
@@ -50,7 +50,7 @@
 /* --MEDIA 1175px--*/
 @media screen and (max-width: 1175px){
 
-    .grid-container .header{
+    .grid-container .header .navbar{
         display: flex;     
         justify-content: center;  
         align-items: center;
@@ -58,25 +58,25 @@
     }
 
 
-    .grid-container .header .header-list{
+    .grid-container .header .navbar .header-list{
         display: none;
     }
 
      
       
            
-    .grid-container .header .logo a img{           
+    .grid-container .header .navbar .logo a img{           
         width: 170px;
         height: 65px;    
         
         
     }
 
-    .grid-container .header .button-drp .btn{
+    .grid-container .header .navbar .button-drp .btn{
         display: none;
     }
 
-    .grid-container .header .col-md-2 .nav-item .nav-link i{
+    .grid-container .header .navbar .col-md-2 .nav-item .nav-link i{
         margin-left: 45px;
         font-size: 35px;
     }
@@ -101,7 +101,7 @@
         margin-top: 55px;
     }
 
-    .grid-container .main .interior div h1{
+    .grid-container .main .interior div p{
         padding-top: 0;
         margin-top: auto;
     }
@@ -146,7 +146,7 @@
     .grid-container .main .inspiracion p{
         font-size: 30px;
         line-height: 45px;
-        padding-top: 0 ;
+        
     }
 
     .grid-container .main .exterior h2{
@@ -178,9 +178,8 @@
 
 
 /* --MEDIA 945px--*/
-@media screen and (max-width: 945px){
-    
-    
+@media screen and (max-width: 945px){   
+   
     .grid-container .main .exterior {   
         display: grid;
         grid-template-columns: 1fr;
@@ -235,10 +234,34 @@
     .grid-container footer .footer .footer-form{
         display: none;
     }
-
 }        
 
 
+/* --MEDIA 768px--*/
+@media screen and (max-width: 768px){
+
+    .grid-container .main .interior .grid-galeria{           
+        display: flex;     
+        flex-direction: column;                                                                          
+    }
+
+    .grid-container .main .interior .grid-galeria .img-6{
+        display: none;                       
+    }
+
+    .grid-container .main .interior .grid-galeria .img-7{
+        display: none;               
+    }
+
+    .grid-container .main .interior .grid-galeria .img-8{
+        display: none;               
+    }
+
+
+    .grid-container .main .interior .grid-galeria .img-9{
+        display: none;               
+    }
+}
  
 /* --MEDIA 595px--*/
 @media screen and (max-width: 595px){
@@ -248,23 +271,13 @@
         padding-top: 0;
         text-align: center;
         margin-left: 0px;
-    }
-
-    
-        
-        
-
+    }        
+       
     .grid-container .main .interior{
         margin-top: 10px;
     }
-
-     
-    .grid-container .main .interior .grid-galeria{           
-        display: flex;     
-        flex-direction: column;                                                                          
-    }
-
-    .grid-container .main .interior div h1{           
+    
+    .grid-container .main .interior div p{           
        margin-bottom: 45px;
 
     }
@@ -322,7 +335,7 @@
         margin-bottom: 20px;
     }
     
-    .grid-container footer .footer .redes h1{        
+    .grid-container footer .footer .redes h2{        
         padding-bottom: 10px;
         
     }
@@ -345,7 +358,7 @@
 /* --MEDIA 1175px--*/
 @media screen and (max-width: 1175px){
 
-    .header{
+    .header .navbar{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -354,45 +367,40 @@
     }
 
 
-    .header .header-list{
+    .header .navbar .header-list{
         display: none;
     }
 
      
       
            
-    .header .logo a img{           
+    .header .navbar .logo a img{           
         width: 170px;
         height: 65px;    
         
         
     }
 
-    .header .button-drp .btn{
+    .header .navbar .button-drp .btn{
         display: none;
     }
 
-    .header .col-md-2 .nav-item .nav-link i{
+    .header .navbar .col-md-2 .nav-item .nav-link i{
         margin-left: 45px;
         font-size: 35px;
     }
+
+    
 }
 
 /* --MEDIA 945px--*/
 @media screen and (max-width: 945px){
-    
+       
     footer .footer .footer-form{
        display: none;
     }     
 }
 
-
-
-/* --MEDIA 700px--*/
-@media screen and (max-width: 700px){
-
-    
-}
 
 
 
@@ -469,18 +477,18 @@
     }
 
 
-    .header .header-list{
+    .header .navbar .header-list{
        display: none;
     }
 
   
        
-    .header .logo a img{           
+    .header .navbar .logo a img{           
         width: 170px;
         height: 65px;         
     }
 
-    .header .enlace-toyota{
+    .header .navbar .enlace-toyota{
       display: none;
     }  
 }

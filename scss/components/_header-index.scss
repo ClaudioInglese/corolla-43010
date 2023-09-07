@@ -12,45 +12,51 @@
     ;
                                     
     .header{
-        width: 100%;    
-        background-color: black;         
-        display: flex;
-        justify-content:space-around;    
-        grid-area: header;
-        flex-direction: row;
-        padding: 27px;   
-                                    
-        .header-list{
-            display: flex;   
-            list-style: none;           
-            align-items: center;  
-            padding-left: 0;
-                                    
-            li{                                  
-                 a{
-                    text-decoration: none;  
-                    font-family: 'Montserrat', sans-serif;
-                    color: nth($paleta-colores, 1);
-                    font-size: nth($font-size, 9);
-                    margin: 10px;  
-                }
-            }
-        }
+           
+        grid-area: header;    
+        padding-top: 10px;      
+
+        .navbar{
+            width: 100%;    
+            background-color: black;         
+            display: flex;
+            justify-content:space-around;                
+            flex-direction: row;
+            padding: 27px; 
+            
+                                                
+            .header-list{
+                display: flex;   
+                list-style: none;           
+                align-items: center;  
+                padding-left: 0;
                                         
-                                    
-        .logo{
-            @extend %flex;
-                                    
-            a{
-                                    
-                img{
-                    width: 180px;
-                    height: 55px;  
+                li{                                  
+                    a{
+                        text-decoration: none;  
+                        font-family: 'Montserrat', sans-serif;
+                        color: nth($paleta-colores, 1);
+                        font-size: nth($font-size, 9);
+                        margin: 10px;  
+                    }
                 }
             }
-                                    
-        }
-       
-                                    
+                                            
+                                        
+            .logo{
+                @extend %flex;
+                                        
+                a{
+                                        
+                    img{
+                        width: 180px;
+                        height: 55px;  
+                    }
+                }
+                                        
+            }
+        
+                                        
+        }    
     }    
 }

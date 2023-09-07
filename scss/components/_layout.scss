@@ -34,7 +34,7 @@
 
             h2{
                 font-family: 'Montserrat', sans-serif;
-                font-size: 54px;
+                font-size: nth($font-size, 3);
                 font-weight: 400;
                 text-indent: 0;    
                 width: auto;    
@@ -58,7 +58,7 @@
             display: flex;
             flex-direction: column;
 
-            h1{
+            p{
                 font-family: 'Montserrat', sans-serif; 
                 font-size: 12px;   
                 letter-spacing: 1px;
@@ -71,7 +71,7 @@
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
                 color: white;
-                font-size: 54px;
+                font-size: nth($font-size, 3);
                 font-weight: 400;
                 padding-bottom: 50px;
             }
@@ -86,8 +86,9 @@
         .inspiracion{
             font-family: 'Montserrat', sans-serif;  
 
-            h1{
+            .tc{
                 font-size: 12px; 
+                font-style: normal;
                 letter-spacing: 1px;
                 text-align: center;
                 color: #ffc845;
@@ -98,14 +99,14 @@
             h2{
                 text-align: center;
                 color: white;
-                font-size: 54px;
+                font-size: nth($font-size, 3);
                 font-weight: 400;
             }
 
             p{
                 text-align: center;    
                 color: white;
-                font-size: 44px;
+                font-size: 30px;
                 font-style: italic;
                 font-weight: 400;
                 padding-top: 70px;
@@ -132,8 +133,8 @@
             font-family: 'Montserrat', sans-serif;
             padding-top: 70px;   
 
-            h1{
-                font-size: 14px; 
+            .dex{
+                font-size: nth($font-size, 8);
                 letter-spacing: 1px;
                 text-align: center;
                 color: #ffc845;
@@ -144,7 +145,7 @@
                 text-align: left;
                 margin-left: 40px;
                 color: white;
-                font-size: 40px;
+                font-size: nth($font-size, 3);
                 font-weight: 400;
                 padding-top: 30px;   
             }
@@ -198,7 +199,7 @@
 
             div{
 
-                h1{
+                p{
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px; 
                     letter-spacing: 1px;
@@ -242,7 +243,7 @@
 
             div{
 
-                h1{
+                p{
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px; 
                     letter-spacing: 1px;
@@ -284,11 +285,11 @@
                     @extend %flex;
                     flex-direction: column;
 
-                    h1{
+                    p{
                         letter-spacing: 1px;
                         text-align: center;
                         color: white;
-                        font-size: nth($font-size, 3);  
+                        font-size: 35px;  
                     }                                   
                 }
             }
