@@ -8,14 +8,11 @@
     box-sizing: border-box;
 }
 
-
-
 /*-----BOOTSTRAP INDEX----*/
 .grid-container {
     .header {
         .navbar{
             .button-drp {
-
                 .btn {
                     font-family: 'Montserrat', sans-serif;
                     font-weight: bold;
@@ -56,15 +53,10 @@
     }
 
     main{
-
         .tu-corolla{
-
             .grid-tucorolla {
-
                 .grid-conoce {
-
                     .enlace-conoce {
-
                         .btn {
 
                             background-color: yellow;
@@ -94,23 +86,16 @@
                                 }
                             }
                         }
-
                     }
                 }
-
             }
-
         }
     }
 }
 
-
-
-
 /*------------------------BOOTSTRAP PAGES------------------------*/
 .header {
     .button-drp {
-
         .btn {
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
@@ -131,9 +116,6 @@
             }
         }
     }
-
-
-
 
     .col-md-2 {
         width: 0;
@@ -275,7 +257,6 @@ main{
     
     .main-reserva{
         @extend %flex;
-
         a{
             img{
                 width: 100%;
@@ -283,7 +264,6 @@ main{
 
         }
     }
-
 
     .container {
         .col-xl-12 {
@@ -325,8 +305,6 @@ main{
                 }
             }
         }
-
-
 
         .row {
             margin-top: 80px;
@@ -390,9 +368,7 @@ main{
                     font-weight: bold;
                 }
             }
-
         }
-
 
         .row {
             margin-top: 50px;
@@ -414,7 +390,6 @@ main{
                 }
             }
 
-
             .col-xl-4 {
 
                 .form-select {
@@ -429,7 +404,6 @@ main{
                 }
             }
         }
-
 
         .terms {
             .divider {

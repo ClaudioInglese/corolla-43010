@@ -874,6 +874,18 @@ footer {
   .grid-container .main .interior .grid-galeria .img-8 {
     display: none; }
   .grid-container .main .interior .grid-galeria .img-9 {
+    display: none; }
+  .grid-container .main .tu-corolla .tucorolla {
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    color: white; }
+  .grid-container .main .m-seg {
+    display: none; }
+  .grid-container .main .m-hybrid {
+    display: none; }
+  .grid-container .main .m-grs {
+    display: none; }
+  .grid-container .main .m-cross {
     display: none; } }
 
 /* --MEDIA 595px--*/

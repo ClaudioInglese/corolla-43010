@@ -29,13 +29,11 @@
                 }
 
                 a{
-
                     img{
                         width: 70px;
                         height: 60px;   
                     }
                 }
-
             }
 
             .footer-menu{
@@ -44,7 +42,6 @@
                 margin-left: 70px;  
                 
                 li{
-
                     a{
                         font-family: 'Montserrat', sans-serif;    
                         text-decoration: none; 
@@ -52,7 +49,6 @@
                         font-size: nth($font-size, 8);  
                     }
                 }
-
             }
 
             .redes{
@@ -74,7 +70,6 @@
                     list-style: none;  
 
                     li{
-
                         a{
                             padding: 10px;
                             
@@ -104,7 +99,6 @@
                 }
 
                 form{
-
                     div{
                         width: 100%;
                         display: flex;
@@ -136,8 +130,6 @@
                     }
                 }
             }
-
         }
     }
-
 }
